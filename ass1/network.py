@@ -1,5 +1,6 @@
 from node import Node
 import random
+from event_queue import event_queue
 
 class Network:
     """
@@ -19,7 +20,7 @@ class Network:
         self.z0 = z0
         self.z1 = z1
         self.nodes = []
-        self.init_nodes()
+        self.init_nodes(2,2)
     
     def generate_random_graph(self,lb_degree:int=4,ub_degree:int=8) -> list:
         """
@@ -45,7 +46,7 @@ class Network:
                     # randomly select a peer
                     peer = random.randint(0,self.n-1)  
                     # set to store peers already tried
-                    peers_tried = set() 
+                    peers_tried = set()
                     # flag to check if the peer is valid
                     valid_peer = True   
                     peers_tried.add(peer)
@@ -100,18 +101,18 @@ class Network:
             dfs(0,visited)
         return adj_list
         
-    def init_nodes(self) -> None:
+    def init_nodes(self,lb_degree:int=4,ub_degree:int=8) -> None:
         """
             initializes the nodes in the network
         """
         # generate a connected graph
-        adj_list = self.generate_connected_graph()
+        adj_list = self.generate_connected_graph(lb_degree,ub_degree)
         # randomly select slow and low cpu nodes
         slow_nodes = random.sample(range(self.n),int(self.z0*self.n))
         low_cpu_nodes = random.sample(range(self.n),int(self.z1*self.n))
         # create nodes
         for id in range(self.n):
-            self.nodes.append(Node(id,id in slow_nodes,id in low_cpu_nodes,adj_list[id]))        
+            self.nodes.append(Node(id,id in slow_nodes,id in low_cpu_nodes,adj_list[id]))                 
 
     def __str__(self) -> str:
         """
@@ -120,4 +121,6 @@ class Network:
             str: string representation of the network
         """
         return "".join([str(node) for node in self.nodes])
-    
+  
+# network = Network(10,0.2,0.2)
+# print(event_queue)

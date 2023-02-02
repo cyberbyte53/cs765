@@ -1,17 +1,11 @@
+from transaction import Transaction
 class Packet:
-    """describes a packet of data circulating in the network"""
-    
-    def __init__(self,source_id:int,destination_id:int,size:int,content:list) -> None:
-        """initilizes a new packet
+    def __init__(self, source, destination, data: Transaction):
+        self.source = source
+        self.destination = destination
+        self.data = data
 
-        Args:
-            source_id (int): id of the node that generated the packet
-            destination_id (int): id of the node that the packet is destined for
-            size (int): size of the packet
-            content (list): content of the packet
-        """
-        self.source_id = source_id
-        self.destination_id = destination_id
-        self.size = size
-        self.content = content 
-        
+    def __str__(self):
+        return "Packet from {} to {} with data {}".format(
+            self.source, self.destination, self.data
+        )
