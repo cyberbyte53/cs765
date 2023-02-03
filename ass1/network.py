@@ -1,14 +1,19 @@
 from node import Node
 import random
 from event_queue import event_queue
+from event import Event
+from typing import List
+from params import *
 
 class Network:
     """
     Simulates a network of nodes
     """
     
+    transmission_delay = None
+    internet_speed = None
     def __init__(self,n:int,z0:float,z1:float) -> None:
-        """_summary_
+        """initializes a network with n nodes and z0 fraction of slow nodes and z1 fraction of low cpu nodes
 
         Args:
             n (int): no. of nodes in the network
@@ -19,9 +24,19 @@ class Network:
         self.n = n
         self.z0 = z0
         self.z1 = z1
-        self.nodes = []
-        self.init_nodes(2,2)
+        self.nodes:List[Node] = []
+        self.init_nodes()
+        self.set_transmission_delay()
+        self.set_internet_speed()
     
+    def __str__(self) -> str:
+        """
+        prints the network
+        Returns:
+            str: string representation of the network
+        """
+        return "".join([str(node) for node in self.nodes])
+  
     def generate_random_graph(self,lb_degree:int=4,ub_degree:int=8) -> list:
         """
         Generates a random graph with n nodes and degree of each node between lb_degree and ub_degree
@@ -114,13 +129,22 @@ class Network:
         for id in range(self.n):
             self.nodes.append(Node(id,id in slow_nodes,id in low_cpu_nodes,adj_list[id]))                 
 
-    def __str__(self) -> str:
+    def set_transmission_delay(self) -> None:
+        """sets the transmission delay between each pair of nodes
         """
-        prints the network
-        Returns:
-            str: string representation of the network
+        self.transmission_delay = [[random.uniform(rho_lb,rho_ub) for _ in range(self.n)] for _ in range(self.n)]
+    
+    def set_internet_speed(self) -> None:
+        """sets the internet speed between each pair of nodes
         """
-        return "".join([str(node) for node in self.nodes])
-  
-# network = Network(10,0.2,0.2)
-# print(event_queue)
+        self.internet_speed = [[not (self.nodes[i].slow or self.nodes[j].slow) for i in range(self.n)] for j in range(self.n)]
+
+    def process_event(self,event:Event)->None:
+        """processes an event 
+        Args:
+            event (Event): receive/generated event for block or transaction
+        """
+        if event.event_type == 0:
+            self.nodes[event.node].generate_txn()
+        elif event.event_type == 1:
+            self.nodes[event.node].receive_txn(event.object,event.trigger_time,self.transmission_delay,self.internet_speed)
