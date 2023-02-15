@@ -1,7 +1,8 @@
+from params import *
 class Event:
     """represents an event in the simulation
     """
-    event_dict = {0:"Generate Txn",1:"Receive Txn",2:"Generate Blk",3:"Receive Blk"}
+    event_dict = {GENERATE_TXN:"Generate Txn",RECEIVE_TXN:"Receive Txn",GENERATE_BLK:"Generate Blk",RECEIVE_BLK:"Receive Blk"}
     def __init__(self,trigger_time:float,event_type:int, node:int,object=None) -> None:
         """initializes an event
 

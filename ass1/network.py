@@ -173,3 +173,17 @@ class Network:
         elif event.event_type == RECEIVE_BLK:
             # print(event)
             self.nodes[event.node].receive_blk(event.object,event.trigger_time,Network.transmission_delay,Network.internet_speed,Network.hashing_power[event.node])
+    
+    def analyze(self) -> None:
+        for node in self.nodes:
+            node.analyze()
+        freq_blks_main = self.nodes[0].get_freq_blks_main()
+        freq_blks_all = self.nodes[0].get_freq_blks_all()
+        with open("./output/network.txt","w") as f:
+            f.write(self.__str__())
+            for a in freq_blks_all:
+                f.write(f'Node {a}: total mined:{freq_blks_all[a]} In main chain:{freq_blks_main[a]} Ratio:{freq_blks_main[a]/freq_blks_all[a]}\n')
+                
+                
+                
+        

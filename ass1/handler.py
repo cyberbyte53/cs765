@@ -9,23 +9,21 @@ class Handler:
         """initializes a network
         """
         self.network = Network(n,z0,z1)
-    
+        self.iterations = ITERATIONS
     def run(self):
         """function to run the simulation
         """
-        i = 10000000
-        while i>0:
-            i-=1
+        for i in range(self.iterations):
             event = event_queue.get_next_event()
             if event is None:
                 break
             self.network.process_event(event)
-            # print(event)
-        # self.network.nodes[0].block_tree.draw_tree()
-        for event in event_queue.event_queue:
-            if event.event_type == GENERATE_BLK:
-                print("yay")
-        print("done")
+        self.analyze()
+    def analyze(self):
+        """function to analyze the simulation
+        """
+        self.network.analyze()
+        
                 
 
 handler = Handler()
