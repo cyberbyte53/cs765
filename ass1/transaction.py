@@ -1,15 +1,20 @@
 class Transaction:
-    def __init__(self, id:int, sender_id:int, receiver_id:int, amount:float) -> None:
+    """Represents a transaction in the network
+    """
+    
+    available_id = 0
+    
+    def __init__(self,sender_id:int, receiver_id:int, amount:float) -> None:
         """
         Initializes a new transaction
 
         Args:
-            id (int): Unique descriptor of the transaction
             sender_id (int): Unique descriptor of the sender
             receiver_id (float): Unique descriptor of the receiver
             amount (int): Amount of money transferred
         """
-        self.id = id
+        self.id = Transaction.available_id
+        Transaction.available_id += 1
         self.sender_id = sender_id
         self.receiver_id = receiver_id
         self.amount = amount

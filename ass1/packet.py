@@ -1,4 +1,5 @@
 from transaction import Transaction
+
 class Packet:
     """Represents a packet in the network
     """

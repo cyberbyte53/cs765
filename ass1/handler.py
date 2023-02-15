@@ -13,13 +13,20 @@ class Handler:
     def run(self):
         """function to run the simulation
         """
-        while True:
+        i = 10000000
+        while i>0:
+            i-=1
             event = event_queue.get_next_event()
-            print(event)
-            
             if event is None:
                 break
             self.network.process_event(event)
+            # print(event)
+        # self.network.nodes[0].block_tree.draw_tree()
+        for event in event_queue.event_queue:
+            if event.event_type == GENERATE_BLK:
+                print("yay")
+        print("done")
+                
 
 handler = Handler()
 handler.run()

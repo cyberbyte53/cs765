@@ -1,0 +1,2 @@
+if block parent in tree, add to tree 
+if block parent not in tree, add to cache 

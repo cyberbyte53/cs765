@@ -4,6 +4,9 @@ from event_queue import event_queue
 from event import Event
 from typing import List
 from params import *
+from block import Block
+from block_tree import BlockTree
+from transaction import Transaction
 
 class Network:
     """
@@ -12,6 +15,7 @@ class Network:
     
     transmission_delay = None
     internet_speed = None
+    hashing_power = None 
     def __init__(self,n:int,z0:float,z1:float) -> None:
         """initializes a network with n nodes and z0 fraction of slow nodes and z1 fraction of low cpu nodes
 
@@ -25,9 +29,11 @@ class Network:
         self.z0 = z0
         self.z1 = z1
         self.nodes:List[Node] = []
+        self.set_genesis_block()
         self.init_nodes()
         self.set_transmission_delay()
         self.set_internet_speed()
+        self.set_hashing_power()
     
     def __str__(self) -> str:
         """
@@ -128,23 +134,42 @@ class Network:
         # create nodes
         for id in range(self.n):
             self.nodes.append(Node(id,id in slow_nodes,id in low_cpu_nodes,adj_list[id]))                 
-
+            
     def set_transmission_delay(self) -> None:
         """sets the transmission delay between each pair of nodes
         """
-        self.transmission_delay = [[random.uniform(rho_lb,rho_ub) for _ in range(self.n)] for _ in range(self.n)]
+        Network.transmission_delay = [[random.uniform(rho_lb,rho_ub) for _ in range(self.n)] for _ in range(self.n)]
     
     def set_internet_speed(self) -> None:
         """sets the internet speed between each pair of nodes
         """
-        self.internet_speed = [[not (self.nodes[i].slow or self.nodes[j].slow) for i in range(self.n)] for j in range(self.n)]
+        Network.internet_speed = [[not (self.nodes[i].slow or self.nodes[j].slow) for i in range(self.n)] for j in range(self.n)]
 
+    def set_hashing_power(self) -> None:
+        """sets the hashing power of each node
+        """
+        total_hashing_power = sum([ 1 if node.low_cpu else 10 for node in self.nodes])
+        Network.hashing_power = [1/total_hashing_power if node.low_cpu else 10/total_hashing_power for node in self.nodes]
+        
+    def set_genesis_block(self) -> None:
+        """sets the genesis block for each node
+        """
+        # Policy: all nodes will receive STARTING_BALANCE coins from node -1 
+        transactions = [Transaction(-1,i,STARTING_BALANCE) for i in range(self.n)]
+        BlockTree.genesis_block = Block(-1,transactions,is_genesis_block=True)
+        
     def process_event(self,event:Event)->None:
         """processes an event 
         Args:
             event (Event): receive/generated event for block or transaction
         """
-        if event.event_type == 0:
-            self.nodes[event.node].generate_txn()
-        elif event.event_type == 1:
-            self.nodes[event.node].receive_txn(event.object,event.trigger_time,self.transmission_delay,self.internet_speed)
+        if event.event_type == GENERATE_TXN:
+            self.nodes[event.node].generate_txn(event.trigger_time)
+        elif event.event_type == RECEIVE_TXN:
+            self.nodes[event.node].receive_txn(event.object,event.trigger_time,Network.transmission_delay,Network.internet_speed)
+        elif event.event_type == GENERATE_BLK:
+            # print(event)
+            self.nodes[event.node].generate_blk(event.object,event.trigger_time,Network.hashing_power[event.node])
+        elif event.event_type == RECEIVE_BLK:
+            # print(event)
+            self.nodes[event.node].receive_blk(event.object,event.trigger_time,Network.transmission_delay,Network.internet_speed,Network.hashing_power[event.node])
