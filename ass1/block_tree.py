@@ -172,7 +172,12 @@ class BlockTree:
                     break
         return Block(longest_chain_node.block.id,txns_added_to_blk)
     
-    def get_freq_blks_main(self) -> None:
+    def get_freq_blks_main(self) -> dict:
+        """finds the frequency of the miners in the longest chain
+
+        Returns:
+            dict: frequency of the miners in the longest chain
+        """
         freq = {}
         longst_chain_node,_ = self.longest_chain_node()
         node = longst_chain_node
@@ -184,7 +189,12 @@ class BlockTree:
         freq.pop(-1)
         return freq
     
-    def get_freq_blks_all(self) -> None:
+    def get_freq_blks_all(self) -> dict:
+        """finds the frequency of the miners in the tree
+
+        Returns:
+            dict: frequency of the miners in the tree
+        """
         freq = {}
         def dfs(node:TreeNode) -> None:
             if node.block.mined_by not in freq:

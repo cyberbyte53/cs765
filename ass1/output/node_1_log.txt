@@ -1,0 +1,71 @@
+Node:1
+Peers:[0, 6, 3, 4, 2, 7, 5]
+Slow:False
+Low cpu:False
+========================================
+1833.0855247601382: Received Event == Recieved Block:1 Prev block:0 Miner Node:3 from Node 3
+1977.9973486817767: Received Event == Recieved Block:2 Prev block:1 Miner Node:3 from Node 3
+8829.793629470745: Mined Event == Block:3 Prev block:2 Miner Node:1
+11446.430543362447: Received Event == Recieved Block:4 Prev block:2 Miner Node:0 from Node 0
+16355.183871771551: Mined Event == Block:6 Prev block:3 Miner Node:1
+17302.794748299693: Received Event == Recieved Block:5 Prev block:3 Miner Node:3 from Node 3
+51166.01282585314: Received Event == Recieved Block:7 Prev block:5 Miner Node:4 from Node 4
+54076.97716251888: Received Event == Recieved Block:9 Prev block:7 Miner Node:2 from Node 2
+54104.54919390193: Received Event == Recieved Block:8 Prev block:7 Miner Node:4 from Node 4
+54327.24291207306: Received Event == Recieved Block:10 Prev block:7 Miner Node:6 from Node 6
+63277.86124291142: Received Event == Recieved Block:11 Prev block:9 Miner Node:2 from Node 2
+71809.3036593002: Mined Event == Block:12 Prev block:11 Miner Node:1
+90230.1889179177: Received Event == Recieved Block:13 Prev block:12 Miner Node:4 from Node 4
+90770.49634066087: Received Event == Recieved Block:14 Prev block:12 Miner Node:3 from Node 3
+94349.12755016671: Received Event == Recieved Block:15 Prev block:13 Miner Node:4 from Node 4
+110954.15427021447: Received Event == Recieved Block:16 Prev block:15 Miner Node:4 from Node 4
+111689.97433946149: Received Event == Recieved Block:17 Prev block:15 Miner Node:3 from Node 3
+124329.29834399691: Received Event == Recieved Block:18 Prev block:17 Miner Node:3 from Node 3
+150261.93218570706: Received Event == Recieved Block:19 Prev block:18 Miner Node:3 from Node 3
+156311.93187082832: Received Event == Recieved Block:20 Prev block:19 Miner Node:4 from Node 4
+174028.44616261174: Received Event == Recieved Block:21 Prev block:20 Miner Node:3 from Node 3
+190990.76843313847: Mined Event == Block:22 Prev block:21 Miner Node:1
+193991.69749886857: Received Event == Recieved Block:23 Prev block:21 Miner Node:4 from Node 4
+204773.5266172708: Received Event == Recieved Block:24 Prev block:23 Miner Node:4 from Node 4
+205187.4923902826: Mined Event == Block:26 Prev block:24 Miner Node:1
+205217.7696737767: Received Event == Recieved Block:25 Prev block:24 Miner Node:4 from Node 4
+214941.33320262554: Received Event == Recieved Block:27 Prev block:25 Miner Node:2 from Node 2
+220591.52209261377: Received Event == Recieved Block:28 Prev block:27 Miner Node:2 from Node 2
+226422.85694398088: Received Event == Recieved Block:29 Prev block:28 Miner Node:2 from Node 2
+228525.08621832: Received Event == Recieved Block:30 Prev block:28 Miner Node:4 from Node 4
+232937.11821656392: Received Event == Recieved Block:31 Prev block:29 Miner Node:2 from Node 2
+246920.35218416408: Received Event == Recieved Block:32 Prev block:31 Miner Node:4 from Node 4
+259677.0998193995: Mined Event == Block:33 Prev block:32 Miner Node:1
+260228.42297008084: Mined Event == Block:34 Prev block:33 Miner Node:1
+267322.5696199822: Mined Event == Block:35 Prev block:34 Miner Node:1
+271632.29010179284: Received Event == Recieved Block:36 Prev block:35 Miner Node:4 from Node 4
+292832.01656064135: Received Event == Recieved Block:37 Prev block:36 Miner Node:3 from Node 3
+312936.54580656905: Received Event == Recieved Block:38 Prev block:37 Miner Node:3 from Node 3
+319578.38663312676: Received Event == Recieved Block:39 Prev block:38 Miner Node:3 from Node 3
+325415.2313170451: Received Event == Recieved Block:40 Prev block:39 Miner Node:3 from Node 3
+335988.14316321234: Received Event == Recieved Block:41 Prev block:40 Miner Node:4 from Node 4
+339406.0855142192: Received Event == Recieved Block:42 Prev block:41 Miner Node:4 from Node 4
+372078.3972062208: Received Event == Recieved Block:43 Prev block:42 Miner Node:4 from Node 4
+380308.3433579018: Mined Event == Block:44 Prev block:43 Miner Node:1
+380493.76815016737: Mined Event == Block:45 Prev block:44 Miner Node:1
+394648.788908819: Received Event == Recieved Block:46 Prev block:45 Miner Node:3 from Node 3
+398638.2347534617: Received Event == Recieved Block:47 Prev block:46 Miner Node:3 from Node 3
+405328.0825837913: Received Event == Recieved Block:48 Prev block:47 Miner Node:2 from Node 2
+414589.6858098364: Received Event == Recieved Block:49 Prev block:48 Miner Node:3 from Node 3
+417740.21032892424: Received Event == Recieved Block:50 Prev block:49 Miner Node:7 from Node 7
+417781.2533292722: Received Event == Recieved Block:51 Prev block:49 Miner Node:3 from Node 3
+435067.8623958744: Received Event == Recieved Block:52 Prev block:50 Miner Node:4 from Node 4
+435812.5999512604: Mined Event == Block:53 Prev block:52 Miner Node:1
+440059.9998496587: Received Event == Recieved Block:54 Prev block:53 Miner Node:3 from Node 3
+452662.6145405685: Mined Event == Block:55 Prev block:54 Miner Node:1
+458422.5140203003: Mined Event == Block:56 Prev block:55 Miner Node:1
+459760.3763946798: Received Event == Recieved Block:57 Prev block:56 Miner Node:2 from Node 2
+460370.6849946097: Received Event == Recieved Block:58 Prev block:57 Miner Node:2 from Node 2
+472418.6601138536: Received Event == Recieved Block:59 Prev block:58 Miner Node:3 from Node 3
+476559.7886494013: Received Event == Recieved Block:60 Prev block:59 Miner Node:4 from Node 4
+480801.3540876853: Received Event == Recieved Block:61 Prev block:60 Miner Node:3 from Node 3
+484225.9386281168: Received Event == Recieved Block:62 Prev block:61 Miner Node:3 from Node 3
+485715.2767265928: Mined Event == Block:64 Prev block:62 Miner Node:1
+486488.2625546701: Received Event == Recieved Block:63 Prev block:62 Miner Node:3 from Node 3
+489641.38035288994: Received Event == Recieved Block:65 Prev block:63 Miner Node:4 from Node 4
+492192.2977179926: Mined Event == Block:66 Prev block:65 Miner Node:1

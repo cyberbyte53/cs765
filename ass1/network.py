@@ -14,8 +14,7 @@ class Network:
     """
     
     transmission_delay = None
-    internet_speed = None
-    hashing_power = None 
+    internet_speed = None 
     def __init__(self,n:int,z0:float,z1:float) -> None:
         """initializes a network with n nodes and z0 fraction of slow nodes and z1 fraction of low cpu nodes
 
@@ -33,7 +32,6 @@ class Network:
         self.init_nodes()
         self.set_transmission_delay()
         self.set_internet_speed()
-        self.set_hashing_power()
     
     def __str__(self) -> str:
         """
@@ -132,9 +130,14 @@ class Network:
         slow_nodes = random.sample(range(self.n),int(self.z0*self.n))
         low_cpu_nodes = random.sample(range(self.n),int(self.z1*self.n))
         # create nodes
+        hashing_power = [1 if i in low_cpu_nodes else 10 for i in range(self.n)]
+        total_hashing_power = sum(hashing_power)
+        hashing_power = [hp/total_hashing_power for hp in hashing_power]
         for id in range(self.n):
-            self.nodes.append(Node(id,id in slow_nodes,id in low_cpu_nodes,adj_list[id]))                 
-            
+            self.nodes.append(Node(id,id in slow_nodes,id in low_cpu_nodes,adj_list[id],hashing_power[id]))
+                
+        
+        
     def set_transmission_delay(self) -> None:
         """sets the transmission delay between each pair of nodes
         """
@@ -145,11 +148,6 @@ class Network:
         """
         Network.internet_speed = [[not (self.nodes[i].slow or self.nodes[j].slow) for i in range(self.n)] for j in range(self.n)]
 
-    def set_hashing_power(self) -> None:
-        """sets the hashing power of each node
-        """
-        total_hashing_power = sum([ 1 if node.low_cpu else 10 for node in self.nodes])
-        Network.hashing_power = [1/total_hashing_power if node.low_cpu else 10/total_hashing_power for node in self.nodes]
         
     def set_genesis_block(self) -> None:
         """sets the genesis block for each node
@@ -168,13 +166,13 @@ class Network:
         elif event.event_type == RECEIVE_TXN:
             self.nodes[event.node].receive_txn(event.object,event.trigger_time,Network.transmission_delay,Network.internet_speed)
         elif event.event_type == GENERATE_BLK:
-            # print(event)
-            self.nodes[event.node].generate_blk(event.object,event.trigger_time,Network.hashing_power[event.node])
+            self.nodes[event.node].generate_blk(event.object,event.trigger_time)
         elif event.event_type == RECEIVE_BLK:
-            # print(event)
-            self.nodes[event.node].receive_blk(event.object,event.trigger_time,Network.transmission_delay,Network.internet_speed,Network.hashing_power[event.node])
+            self.nodes[event.node].receive_blk(event.object,event.trigger_time,Network.transmission_delay,Network.internet_speed)
     
     def analyze(self) -> None:
+        """analyzes the network and writes the results to a file
+        """
         for node in self.nodes:
             node.analyze()
         freq_blks_main = self.nodes[0].get_freq_blks_main()
@@ -182,8 +180,10 @@ class Network:
         with open("./output/network.txt","w") as f:
             f.write(self.__str__())
             for a in freq_blks_all:
-                f.write(f'Node {a}: total mined:{freq_blks_all[a]} In main chain:{freq_blks_main[a]} Ratio:{freq_blks_main[a]/freq_blks_all[a]}\n')
-                
+                if a in freq_blks_main:
+                    f.write(f'Node {a}: total mined:{freq_blks_all[a]} In main chain:{freq_blks_main[a]} Ratio:{freq_blks_main[a]/freq_blks_all[a]}\n')
+                else:
+                    f.write(f'Node {a}: total mined:{freq_blks_all[a]} In main chain:0 Ratio:0\n')
                 
                 
         

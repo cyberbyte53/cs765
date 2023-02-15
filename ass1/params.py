@@ -1,7 +1,7 @@
-n = 5 # number of nodes
+n = 8 # number of nodes
 z0 = 0.5 # fraction of slow nodes
 z1 = 0.5 # fraction of low cpu nodes
-ITERATIONS = 100000000 # number of iterations to run the simulation
+ITERATIONS = 10000000 # number of iterations to run the simulation
 inter_txn_time = 20 # inter transaction time
 c_slow = 5 # link speed for slow internet (in Kbpms)
 c_fast = 100 # link spped for fast internet (in Kbmps)

@@ -1,0 +1,39 @@
+Node:0
+Peers:[3, 6, 5, 1, 4, 7, 2]
+Slow:True
+Low cpu:True
+Node:1
+Peers:[0, 6, 3, 4, 2, 7, 5]
+Slow:False
+Low cpu:False
+Node:2
+Peers:[1, 5, 6, 3, 7, 0, 4]
+Slow:False
+Low cpu:False
+Node:3
+Peers:[0, 1, 2, 7, 5, 4]
+Slow:True
+Low cpu:False
+Node:4
+Peers:[0, 1, 2, 3, 6, 7, 5]
+Slow:True
+Low cpu:False
+Node:5
+Peers:[0, 1, 2, 3, 4, 6, 7]
+Slow:False
+Low cpu:True
+Node:6
+Peers:[0, 1, 2, 4, 5, 7]
+Slow:False
+Low cpu:True
+Node:7
+Peers:[0, 1, 2, 3, 4, 5, 6]
+Slow:True
+Low cpu:True
+Node 3: total mined:21 In main chain:19 Ratio:0.9047619047619048
+Node 0: total mined:1 In main chain:0 Ratio:0
+Node 1: total mined:15 In main chain:11 Ratio:0.7333333333333333
+Node 4: total mined:18 In main chain:15 Ratio:0.8333333333333334
+Node 2: total mined:9 In main chain:9 Ratio:1.0
+Node 7: total mined:1 In main chain:1 Ratio:1.0
+Node 6: total mined:1 In main chain:0 Ratio:0

@@ -12,7 +12,7 @@ class Node:
     Represents a node in the network
     """ 
     
-    def __init__(self,id:int,slow:bool,low_cpu:bool,peers:list) -> None:
+    def __init__(self,id:int,slow:bool,low_cpu:bool,peers:list,hashing_power:float) -> None:
         """Initializes a new node in the network
         Args:
             id (int): Unique descriptor of the node
@@ -25,12 +25,13 @@ class Node:
         self.slow = slow
         self.low_cpu = low_cpu
         self.peers = peers
+        self.hashing_power = hashing_power
         self.block_tree:BlockTree = BlockTree()
         with open(f"./output/node_{self.id}_log.txt","w") as f:
             f.write(self.__str__())
             f.write("========================================\n")
         self.generate_txn(0)
-        event_queue.add_event(Event(0,GENERATE_BLK,self.id,0))
+        event_queue.add_event(Event(random.expovariate(self.hashing_power/inter_blk_time),GENERATE_BLK,self.id,0))
         
      
     def __str__(self) -> str:
@@ -102,7 +103,7 @@ class Node:
                 # add the event to the recieve event queue
                 event_queue.add_event(Event(received_time+time_to_send,RECEIVE_TXN,peer,Packet(self.id,peer,txn)))
 
-    def generate_blk(self,longest_chain_blk_id:int,trigger_time:float,hashing_power:float) -> None:
+    def generate_blk(self,longest_chain_blk_id:int,trigger_time:float) -> None:
         if longest_chain_blk_id != self.block_tree.longest_chain_node()[0].block.id:
             return
         blk = self.block_tree.gen_blk()
@@ -111,10 +112,10 @@ class Node:
         with open(f"./output/node_{self.id}_log.txt","a") as f:
             f.write(f"{trigger_time}: Mined Event == {blk}\n")
         event_queue.add_event(Event(trigger_time,RECEIVE_BLK,self.id,Packet(-1,self.id,blk)))
-        next_blk_gen_time = trigger_time + random.expovariate(hashing_power/inter_blk_time)
+        next_blk_gen_time = trigger_time + random.expovariate(self.hashing_power/inter_blk_time)
         event_queue.add_event(Event(next_blk_gen_time,GENERATE_BLK,self.id,blk.id))
         
-    def receive_blk(self,packet:Packet,received_time:float,transmission_delay:list,internet_speed:list,hashing_power:float) -> None:
+    def receive_blk(self,packet:Packet,received_time:float,transmission_delay:list,internet_speed:list) -> None:
         sender_id = packet.source
         blk = packet.data
         is_added, is_new_longest_chain = self.block_tree.add_blk(blk,received_time)
@@ -124,7 +125,7 @@ class Node:
             with open(f"./output/node_{self.id}_log.txt","a") as f:
                 f.write(f"{received_time}: Received Event == Recieved {blk} from Node {sender_id}\n")
         if is_new_longest_chain and sender_id != -1:
-            next_blk_gen_time = received_time + random.expovariate(hashing_power/inter_blk_time)
+            next_blk_gen_time = received_time + random.expovariate(self.hashing_power/inter_blk_time)
             blk_gen_event = Event(next_blk_gen_time,GENERATE_BLK,self.id,blk.id)
             event_queue.add_event(blk_gen_event)
         size_blk = (1+len(blk.transactions))*SIZE_TXN
@@ -141,7 +142,7 @@ class Node:
                 
     def analyze(self) -> None:
         self.block_tree.draw_tree("./output/node_"+str(self.id)+"_tree.png")
-        
+
     def get_freq_blks_main(self) -> None:
         return self.block_tree.get_freq_blks_main()
     
