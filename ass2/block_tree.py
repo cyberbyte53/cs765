@@ -120,7 +120,7 @@ class BlockTree:
         Returns:
             tuple[TreeNode,int]: node with the longest chain, length of the longest chain
         """
-        def dfs(node:TreeNode,depth:int) -> TreeNode:
+        def dfs(node:TreeNode,depth:int) -> None:
             """uses dfs to find the node with the longest chain
 
             Args:

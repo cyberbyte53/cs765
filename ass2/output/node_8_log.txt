@@ -1,0 +1,6 @@
+Node:8
+Peers:[0, 3, 6, 17, 21, 14, 13, 9]
+Slow:True
+Low cpu:False
+========================================
+2906.7379765357587: Mined Event == Block:2 Prev block:0 Miner Node:8
