@@ -1,9 +1,9 @@
-n = 25 # number of nodes
+n = 5 # number of nodes
 z0 = 0.5 # fraction of slow nodes
 z1 = 0.5 # fraction of low cpu nodes
 zeta = 0.5 # fraction of honest nodes connected to the adversary node
 adversary_hashing_power = 0.5 # fraction of hashing power of the adversary node
-ITERATIONS = 10000000 # number of iterations to run the simulation
+ITERATIONS = 1000000 # number of iterations to run the simulation
 inter_txn_time = 20 # inter transaction time
 inter_blk_time = 6000 # inter block time
 

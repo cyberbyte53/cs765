@@ -1,7 +1,0 @@
-Node:0
-Peers:[12, 10, 17, 2, 11, 15, 9, 19, 6, 8, 4, 7]
-Slow:0
-Low cpu:0
-========================================
-1328.1785900457112: Mined Event == Block:1 Prev block:0 Miner Node:0
-5060.997403979709: Received Event == Recieved Block:2 Prev block:0 Miner Node:8 from Node 8

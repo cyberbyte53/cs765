@@ -1,6 +1,0 @@
-Node:3
-Peers:[2, 23, 8, 17, 4, 6, 14, 16]
-Slow:True
-Low cpu:True
-========================================
-5054.487820121383: Received Event == Recieved Block:2 Prev block:0 Miner Node:8 from Node 8
