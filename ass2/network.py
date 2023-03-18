@@ -30,7 +30,7 @@ class Network:
         self.z1 = z1
         self.nodes:List[Node] = []
         self.set_genesis_block()
-        self.init_nodes()
+        self.init_nodes(LB_DEG,UB_DEG)
         self.set_transmission_delay()
         self.set_internet_speed()
     

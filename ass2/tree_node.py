@@ -1,5 +1,5 @@
 from block import Block
-from typing import Dict
+from typing import Dict,List
 
 class TreeNode:
     """
@@ -30,7 +30,23 @@ class TreeNode:
             peers_balance[txn.sender_id] -= txn.amount
             peers_balance[txn.receiver_id] += txn.amount
         child.peers_balance = peers_balance
-            
+    
+    def calculate_balance_for_blocks(self,blks:List[Block]) -> Dict[int,float]:
+        balance:Dict[int,float] = self.peers_balance.copy()
+        txns = []
+        for blk in blks:
+            txns.extend(blk.transactions)
+        for txn in txns:
+            if txn.sender_id not in balance:
+                balance[txn.sender_id] = 0
+            if txn.receiver_id not in balance:
+                balance[txn.receiver_id] = 0
+            balance[txn.sender_id] -= txn.amount
+            balance[txn.receiver_id] += txn.amount
+        return balance
+        
+        
+        
     def add_child(self,child) -> bool:
         """add a child to the node if the child is valid
 

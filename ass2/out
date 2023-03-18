@@ -1,0 +1,1377 @@
+private chain:  [0]
+public chain:  [0]
+private chain:  [0]
+public chain:  [0, 1]
+prev_private_chain_len 0
+prev_public_chain_len 0
+curr_private_chain_len 0
+curr_public_chain_len 1
+private chain: []
+recv a blk 1 and lead is  -1
+update mining point
+fork updated to blk id: 1
+new mine event added due to new longest chain blk id: 1
+private chain:  [0, 1]
+public chain:  [0, 1]
+private chain:  [0, 1]
+public chain:  [0, 1, 2]
+prev_private_chain_len 1
+prev_public_chain_len 1
+curr_private_chain_len 1
+curr_public_chain_len 2
+private chain: []
+recv a blk 2 and lead is  -1
+update mining point
+fork updated to blk id: 2
+new mine event added due to new longest chain blk id: 2
+private chain:  [0, 1, 2]
+public chain:  [0, 1, 2]
+block 1 already seen
+blk 1 not added
+private chain:  [0, 1, 2]
+public chain:  [0, 1, 2]
+block 2 already seen
+blk 2 not added
+private chain:  [0, 1, 2]
+public chain:  [0, 1, 2]
+private chain:  [0, 1, 2]
+public chain:  [0, 1, 2]
+prev_private_chain_len 2
+prev_public_chain_len 2
+curr_private_chain_len 2
+curr_public_chain_len 2
+private chain: []
+blk not added on highest depth
+private chain:  [0, 1, 2]
+public chain:  [0, 1, 2]
+block 3 already seen
+blk 3 not added
+private chain:  [0, 1, 2]
+public chain:  [0, 1, 2]
+private chain:  [0, 1, 2]
+public chain:  [0, 1, 2]
+prev_private_chain_len 2
+prev_public_chain_len 2
+curr_private_chain_len 2
+curr_public_chain_len 2
+private chain: []
+blk not added on highest depth
+private chain:  [0, 1, 2]
+public chain:  [0, 1, 2]
+block 4 already seen
+blk 4 not added
+private chain:  [0, 1, 2]
+public chain:  [0, 1, 2]
+private chain:  [0, 1, 2]
+public chain:  [0, 1, 2]
+prev_private_chain_len 2
+prev_public_chain_len 2
+curr_private_chain_len 2
+curr_public_chain_len 2
+private chain: []
+blk not added on highest depth
+private chain:  [0, 1, 2]
+public chain:  [0, 1, 2]
+private chain:  [0, 1, 2]
+public chain:  [0, 1, 2]
+prev_private_chain_len 2
+prev_public_chain_len 2
+curr_private_chain_len 2
+curr_public_chain_len 2
+private chain: []
+blk not added on highest depth
+private chain:  [0, 1, 2]
+public chain:  [0, 1, 2]
+private chain:  [0, 1, 2]
+public chain:  [0, 1, 2]
+prev_private_chain_len 2
+prev_public_chain_len 2
+curr_private_chain_len 2
+curr_public_chain_len 2
+private chain: []
+blk not added on highest depth
+private chain:  [0, 1, 2]
+public chain:  [0, 1, 2]
+block 6 already seen
+blk 6 not added
+private chain:  [0, 1, 2]
+public chain:  [0, 1, 2]
+block 5 already seen
+blk 5 not added
+private chain:  [0, 1, 2]
+public chain:  [0, 1, 2]
+private chain:  [0, 1, 2]
+public chain:  [0, 1, 2]
+prev_private_chain_len 2
+prev_public_chain_len 2
+curr_private_chain_len 2
+curr_public_chain_len 2
+private chain: []
+blk not added on highest depth
+private chain:  [0, 1, 2]
+public chain:  [0, 1, 2]
+block 8 already seen
+blk 8 not added
+private chain:  [0, 1, 2]
+public chain:  [0, 1, 2]
+block 7 already seen
+blk 7 not added
+private chain:  [0, 1, 2]
+public chain:  [0, 1, 2]
+private chain:  [0, 1, 2]
+public chain:  [0, 3, 4, 9]
+prev_private_chain_len 2
+prev_public_chain_len 2
+curr_private_chain_len 2
+curr_public_chain_len 3
+private chain: []
+recv a blk 9 and lead is  -1
+update mining point
+fork updated to blk id: 9
+new mine event added due to new longest chain blk id: 9
+private chain:  [0, 3, 4, 9]
+public chain:  [0, 3, 4, 9]
+private chain:  [0, 3, 4, 9]
+public chain:  [0, 3, 4, 9]
+prev_private_chain_len 3
+prev_public_chain_len 3
+curr_private_chain_len 3
+curr_public_chain_len 3
+private chain: []
+blk not added on highest depth
+private chain:  [0, 3, 4, 9]
+public chain:  [0, 3, 4, 9]
+block 9 already seen
+blk 9 not added
+private chain:  [0, 3, 4, 9]
+public chain:  [0, 3, 4, 9]
+block 10 already seen
+blk 10 not added
+private chain:  [0, 3, 4, 9]
+public chain:  [0, 3, 4, 9]
+private chain:  [0, 3, 4, 9]
+public chain:  [0, 3, 4, 9]
+prev_private_chain_len 3
+prev_public_chain_len 3
+curr_private_chain_len 3
+curr_public_chain_len 3
+private chain: []
+blk not added on highest depth
+private chain:  [0, 3, 4, 9]
+public chain:  [0, 3, 4, 9]
+private chain:  [0, 3, 4, 9]
+public chain:  [0, 3, 4, 9]
+prev_private_chain_len 3
+prev_public_chain_len 3
+curr_private_chain_len 3
+curr_public_chain_len 3
+private chain: []
+blk not added on highest depth
+private chain:  [0, 3, 4, 9]
+public chain:  [0, 3, 4, 9]
+private chain:  [0, 3, 4, 9]
+public chain:  [0, 3, 4, 9, 11]
+prev_private_chain_len 3
+prev_public_chain_len 3
+curr_private_chain_len 3
+curr_public_chain_len 4
+private chain: []
+recv a blk 11 and lead is  -1
+update mining point
+fork updated to blk id: 11
+new mine event added due to new longest chain blk id: 11
+private chain:  [0, 3, 4, 9, 11]
+public chain:  [0, 3, 4, 9, 11]
+block 11 already seen
+blk 11 not added
+private chain:  [0, 3, 4, 9, 11]
+public chain:  [0, 3, 4, 9, 11]
+private chain:  [0, 3, 4, 9, 11]
+public chain:  [0, 3, 4, 9, 11]
+prev_private_chain_len 4
+prev_public_chain_len 4
+curr_private_chain_len 4
+curr_public_chain_len 4
+private chain: []
+blk not added on highest depth
+private chain:  [0, 3, 4, 9, 11]
+public chain:  [0, 3, 4, 9, 11]
+private chain:  [0, 3, 4, 9, 11]
+public chain:  [0, 3, 4, 9, 11, 15]
+prev_private_chain_len 4
+prev_public_chain_len 4
+curr_private_chain_len 4
+curr_public_chain_len 5
+private chain: []
+recv a blk 15 and lead is  -1
+update mining point
+fork updated to blk id: 15
+new mine event added due to new longest chain blk id: 15
+private chain:  [0, 3, 4, 9, 11, 15]
+public chain:  [0, 3, 4, 9, 11, 15]
+block 12 already seen
+blk 12 not added
+private chain:  [0, 3, 4, 9, 11, 15]
+public chain:  [0, 3, 4, 9, 11, 15]
+private chain:  [0, 3, 4, 9, 11, 15]
+public chain:  [0, 3, 4, 9, 11, 15]
+prev_private_chain_len 5
+prev_public_chain_len 5
+curr_private_chain_len 5
+curr_public_chain_len 5
+private chain: []
+blk not added on highest depth
+private chain:  [0, 3, 4, 9, 11, 15]
+public chain:  [0, 3, 4, 9, 11, 15]
+block 13 already seen
+blk 13 not added
+private chain:  [0, 3, 4, 9, 11, 15]
+public chain:  [0, 3, 4, 9, 11, 15]
+block 14 already seen
+blk 14 not added
+private chain:  [0, 3, 4, 9, 11, 15]
+public chain:  [0, 3, 4, 9, 11, 15]
+private chain:  [0, 3, 4, 9, 11, 15]
+public chain:  [0, 3, 4, 9, 11, 15]
+prev_private_chain_len 5
+prev_public_chain_len 5
+curr_private_chain_len 5
+curr_public_chain_len 5
+private chain: []
+blk not added on highest depth
+private chain:  [0, 3, 4, 9, 11, 15]
+public chain:  [0, 3, 4, 9, 11, 15]
+block 16 already seen
+blk 16 not added
+private chain:  [0, 3, 4, 9, 11, 15]
+public chain:  [0, 3, 4, 9, 11, 15]
+block 15 already seen
+blk 15 not added
+private chain:  [0, 3, 4, 9, 11, 15]
+public chain:  [0, 3, 4, 9, 11, 15]
+block 17 already seen
+blk 17 not added
+private chain:  [0, 3, 4, 9, 11, 15]
+public chain:  [0, 3, 4, 9, 11, 15]
+private chain:  [0, 3, 4, 9, 11, 15]
+public chain:  [0, 3, 4, 9, 11, 15, 18]
+prev_private_chain_len 5
+prev_public_chain_len 5
+curr_private_chain_len 5
+curr_public_chain_len 6
+private chain: []
+recv a blk 18 and lead is  -1
+update mining point
+fork updated to blk id: 18
+new mine event added due to new longest chain blk id: 18
+private chain:  [0, 3, 4, 9, 11, 15, 18]
+public chain:  [0, 3, 4, 9, 11, 15, 18]
+block 18 already seen
+blk 18 not added
+private chain:  [0, 3, 4, 9, 11, 15, 18]
+public chain:  [0, 3, 4, 9, 11, 15, 18]
+private chain:  [0, 3, 4, 9, 11, 15, 18]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19]
+prev_private_chain_len 6
+prev_public_chain_len 6
+curr_private_chain_len 6
+curr_public_chain_len 7
+private chain: []
+recv a blk 19 and lead is  -1
+update mining point
+fork updated to blk id: 19
+new mine event added due to new longest chain blk id: 19
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19]
+block 19 already seen
+blk 19 not added
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19]
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20]
+prev_private_chain_len 7
+prev_public_chain_len 7
+curr_private_chain_len 7
+curr_public_chain_len 8
+private chain: []
+recv a blk 20 and lead is  -1
+update mining point
+fork updated to blk id: 20
+new mine event added due to new longest chain blk id: 20
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20]
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20]
+prev_private_chain_len 8
+prev_public_chain_len 8
+curr_private_chain_len 8
+curr_public_chain_len 8
+private chain: []
+blk not added on highest depth
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20]
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22]
+prev_private_chain_len 8
+prev_public_chain_len 8
+curr_private_chain_len 8
+curr_public_chain_len 9
+private chain: []
+recv a blk 22 and lead is  -1
+update mining point
+fork updated to blk id: 22
+new mine event added due to new longest chain blk id: 22
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22]
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22]
+prev_private_chain_len 9
+prev_public_chain_len 9
+curr_private_chain_len 9
+curr_public_chain_len 9
+private chain: []
+blk not added on highest depth
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22]
+block 20 already seen
+blk 20 not added
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22]
+block 21 already seen
+blk 21 not added
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22]
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24]
+prev_private_chain_len 9
+prev_public_chain_len 9
+curr_private_chain_len 9
+curr_public_chain_len 10
+private chain: []
+recv a blk 24 and lead is  -1
+update mining point
+fork updated to blk id: 24
+new mine event added due to new longest chain blk id: 24
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24]
+block 22 already seen
+blk 22 not added
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24]
+block 23 already seen
+blk 23 not added
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24]
+block 24 already seen
+blk 24 not added
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24]
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25]
+prev_private_chain_len 10
+prev_public_chain_len 10
+curr_private_chain_len 10
+curr_public_chain_len 11
+private chain: []
+recv a blk 25 and lead is  -1
+update mining point
+fork updated to blk id: 25
+new mine event added due to new longest chain blk id: 25
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25]
+block 25 already seen
+blk 25 not added
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25]
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25]
+prev_private_chain_len 11
+prev_public_chain_len 11
+curr_private_chain_len 11
+curr_public_chain_len 11
+private chain: []
+blk not added on highest depth
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25]
+block 26 already seen
+blk 26 not added
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25]
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27]
+prev_private_chain_len 11
+prev_public_chain_len 11
+curr_private_chain_len 11
+curr_public_chain_len 12
+private chain: []
+recv a blk 27 and lead is  -1
+update mining point
+fork updated to blk id: 27
+new mine event added due to new longest chain blk id: 27
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27]
+block 27 already seen
+blk 27 not added
+block 28 added to private chain
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 28]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27]
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 28]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29]
+prev_private_chain_len 13
+prev_public_chain_len 12
+curr_private_chain_len 13
+curr_public_chain_len 13
+private chain: [(27, 28)]
+recv a blk 29 and lead is  0
+fork updated to blk id: 28
+sending blk id: 28
+published all blocks in private chain
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 28]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29]
+block 29 already seen
+blk 29 not added
+block 28 already seen
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 28]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29]
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 28]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29]
+prev_private_chain_len 13
+prev_public_chain_len 13
+curr_private_chain_len 13
+curr_public_chain_len 13
+private chain: []
+blk not added on highest depth
+block 28 already seen
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 28]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29]
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 28]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29]
+prev_private_chain_len 13
+prev_public_chain_len 13
+curr_private_chain_len 13
+curr_public_chain_len 13
+private chain: []
+blk not added on highest depth
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 28]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29]
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 28]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29]
+prev_private_chain_len 13
+prev_public_chain_len 13
+curr_private_chain_len 13
+curr_public_chain_len 13
+private chain: []
+blk not added on highest depth
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 28]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29]
+block 30 already seen
+blk 30 not added
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 28]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29]
+block 31 already seen
+blk 31 not added
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 28]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29]
+block 32 already seen
+blk 32 not added
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 28]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29]
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 28]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29]
+prev_private_chain_len 13
+prev_public_chain_len 13
+curr_private_chain_len 13
+curr_public_chain_len 13
+private chain: []
+blk not added on highest depth
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 28]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29]
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 28]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34]
+prev_private_chain_len 13
+prev_public_chain_len 13
+curr_private_chain_len 13
+curr_public_chain_len 14
+private chain: []
+recv a blk 34 and lead is  -1
+update mining point
+fork updated to blk id: 34
+new mine event added due to new longest chain blk id: 34
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34]
+block 33 already seen
+blk 33 not added
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34]
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34]
+prev_private_chain_len 14
+prev_public_chain_len 14
+curr_private_chain_len 14
+curr_public_chain_len 14
+private chain: []
+blk not added on highest depth
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34]
+block 35 already seen
+blk 35 not added
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34]
+block 34 already seen
+blk 34 not added
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34]
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34]
+prev_private_chain_len 14
+prev_public_chain_len 14
+curr_private_chain_len 14
+curr_public_chain_len 14
+private chain: []
+blk not added on highest depth
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34]
+block 36 already seen
+blk 36 not added
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34]
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34]
+prev_private_chain_len 14
+prev_public_chain_len 14
+curr_private_chain_len 14
+curr_public_chain_len 14
+private chain: []
+blk not added on highest depth
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34]
+block 37 already seen
+blk 37 not added
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34]
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34]
+prev_private_chain_len 14
+prev_public_chain_len 14
+curr_private_chain_len 14
+curr_public_chain_len 14
+private chain: []
+blk not added on highest depth
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34]
+block 38 already seen
+blk 38 not added
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34]
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39]
+prev_private_chain_len 14
+prev_public_chain_len 14
+curr_private_chain_len 14
+curr_public_chain_len 15
+private chain: []
+recv a blk 39 and lead is  -1
+update mining point
+fork updated to blk id: 39
+new mine event added due to new longest chain blk id: 39
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39]
+block 39 already seen
+blk 39 not added
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39]
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40]
+prev_private_chain_len 15
+prev_public_chain_len 15
+curr_private_chain_len 15
+curr_public_chain_len 16
+private chain: []
+recv a blk 40 and lead is  -1
+update mining point
+fork updated to blk id: 40
+new mine event added due to new longest chain blk id: 40
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40]
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40]
+prev_private_chain_len 16
+prev_public_chain_len 16
+curr_private_chain_len 16
+curr_public_chain_len 16
+private chain: []
+blk not added on highest depth
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40]
+block 40 already seen
+blk 40 not added
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40]
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42]
+prev_private_chain_len 16
+prev_public_chain_len 16
+curr_private_chain_len 16
+curr_public_chain_len 17
+private chain: []
+recv a blk 42 and lead is  -1
+update mining point
+fork updated to blk id: 42
+new mine event added due to new longest chain blk id: 42
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42]
+block 41 already seen
+blk 41 not added
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42]
+block 42 already seen
+blk 42 not added
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42]
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42]
+prev_private_chain_len 17
+prev_public_chain_len 17
+curr_private_chain_len 17
+curr_public_chain_len 17
+private chain: []
+blk not added on highest depth
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42]
+block 43 already seen
+blk 43 not added
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42]
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44]
+prev_private_chain_len 17
+prev_public_chain_len 17
+curr_private_chain_len 17
+curr_public_chain_len 18
+private chain: []
+recv a blk 44 and lead is  -1
+update mining point
+fork updated to blk id: 44
+new mine event added due to new longest chain blk id: 44
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44]
+block 44 already seen
+blk 44 not added
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44]
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44]
+prev_private_chain_len 18
+prev_public_chain_len 18
+curr_private_chain_len 18
+curr_public_chain_len 18
+private chain: []
+blk not added on highest depth
+block 47 added to private chain
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 47]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44]
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 47]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44]
+prev_private_chain_len 19
+prev_public_chain_len 18
+curr_private_chain_len 19
+curr_public_chain_len 18
+private chain: [(44, 47)]
+blk not added on highest depth
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 47]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44]
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 47]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45]
+prev_private_chain_len 19
+prev_public_chain_len 18
+curr_private_chain_len 19
+curr_public_chain_len 19
+private chain: [(44, 47)]
+recv a blk 45 and lead is  0
+fork updated to blk id: 47
+sending blk id: 47
+published all blocks in private chain
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 47]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45]
+block 45 already seen
+blk 45 not added
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 47]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45]
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 47]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45]
+prev_private_chain_len 19
+prev_public_chain_len 19
+curr_private_chain_len 19
+curr_public_chain_len 19
+private chain: []
+blk not added on highest depth
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 47]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45]
+block 49 already seen
+blk 49 not added
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 47]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45]
+block 46 already seen
+blk 46 not added
+block 47 already seen
+block 47 already seen
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 47]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45]
+block 48 already seen
+blk 48 not added
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 47]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45]
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 47]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 50]
+prev_private_chain_len 19
+prev_public_chain_len 19
+curr_private_chain_len 19
+curr_public_chain_len 20
+private chain: []
+recv a blk 50 and lead is  -1
+update mining point
+fork updated to blk id: 50
+new mine event added due to new longest chain blk id: 50
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 50]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 50]
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 50]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 50]
+prev_private_chain_len 20
+prev_public_chain_len 20
+curr_private_chain_len 20
+curr_public_chain_len 20
+private chain: []
+blk not added on highest depth
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 50]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 50]
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 50]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 50]
+prev_private_chain_len 20
+prev_public_chain_len 20
+curr_private_chain_len 20
+curr_public_chain_len 20
+private chain: []
+blk not added on highest depth
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 50]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 50]
+block 50 already seen
+blk 50 not added
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 50]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 50]
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 50]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53]
+prev_private_chain_len 20
+prev_public_chain_len 20
+curr_private_chain_len 20
+curr_public_chain_len 21
+private chain: []
+recv a blk 53 and lead is  -1
+update mining point
+fork updated to blk id: 53
+new mine event added due to new longest chain blk id: 53
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53]
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53]
+prev_private_chain_len 21
+prev_public_chain_len 21
+curr_private_chain_len 21
+curr_public_chain_len 21
+private chain: []
+blk not added on highest depth
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53]
+block 52 already seen
+blk 52 not added
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53]
+block 54 already seen
+blk 54 not added
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53]
+block 51 already seen
+blk 51 not added
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53]
+block 53 already seen
+blk 53 not added
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53]
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53]
+prev_private_chain_len 21
+prev_public_chain_len 21
+curr_private_chain_len 21
+curr_public_chain_len 21
+private chain: []
+blk not added on highest depth
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53]
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53]
+prev_private_chain_len 21
+prev_public_chain_len 21
+curr_private_chain_len 21
+curr_public_chain_len 21
+private chain: []
+blk not added on highest depth
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53]
+block 55 already seen
+blk 55 not added
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53]
+block 56 already seen
+blk 56 not added
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53]
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57]
+prev_private_chain_len 21
+prev_public_chain_len 21
+curr_private_chain_len 21
+curr_public_chain_len 22
+private chain: []
+recv a blk 57 and lead is  -1
+update mining point
+fork updated to blk id: 57
+new mine event added due to new longest chain blk id: 57
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57]
+block 57 already seen
+blk 57 not added
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57]
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57]
+prev_private_chain_len 22
+prev_public_chain_len 22
+curr_private_chain_len 22
+curr_public_chain_len 22
+private chain: []
+blk not added on highest depth
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57]
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58]
+prev_private_chain_len 22
+prev_public_chain_len 22
+curr_private_chain_len 22
+curr_public_chain_len 23
+private chain: []
+recv a blk 58 and lead is  -1
+update mining point
+fork updated to blk id: 58
+new mine event added due to new longest chain blk id: 58
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58]
+block 58 already seen
+blk 58 not added
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58]
+block 59 already seen
+blk 59 not added
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58]
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60]
+prev_private_chain_len 23
+prev_public_chain_len 23
+curr_private_chain_len 23
+curr_public_chain_len 24
+private chain: []
+recv a blk 60 and lead is  -1
+update mining point
+fork updated to blk id: 60
+new mine event added due to new longest chain blk id: 60
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60]
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60]
+prev_private_chain_len 24
+prev_public_chain_len 24
+curr_private_chain_len 24
+curr_public_chain_len 24
+private chain: []
+blk not added on highest depth
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60]
+block 61 already seen
+blk 61 not added
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60]
+block 60 already seen
+blk 60 not added
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60]
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60]
+prev_private_chain_len 24
+prev_public_chain_len 24
+curr_private_chain_len 24
+curr_public_chain_len 24
+private chain: []
+blk not added on highest depth
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60]
+block 62 already seen
+blk 62 not added
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60]
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60]
+prev_private_chain_len 24
+prev_public_chain_len 24
+curr_private_chain_len 24
+curr_public_chain_len 24
+private chain: []
+blk not added on highest depth
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60]
+block 63 already seen
+blk 63 not added
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60]
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60]
+prev_private_chain_len 24
+prev_public_chain_len 24
+curr_private_chain_len 24
+curr_public_chain_len 24
+private chain: []
+blk not added on highest depth
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60]
+block 65 already seen
+blk 65 not added
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60]
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64]
+prev_private_chain_len 24
+prev_public_chain_len 24
+curr_private_chain_len 24
+curr_public_chain_len 25
+private chain: []
+recv a blk 64 and lead is  -1
+update mining point
+fork updated to blk id: 64
+new mine event added due to new longest chain blk id: 64
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64]
+block 64 already seen
+blk 64 not added
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64]
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66]
+prev_private_chain_len 25
+prev_public_chain_len 25
+curr_private_chain_len 25
+curr_public_chain_len 26
+private chain: []
+recv a blk 66 and lead is  -1
+update mining point
+fork updated to blk id: 66
+new mine event added due to new longest chain blk id: 66
+block 68 added to private chain
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 68]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66]
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 68]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66]
+prev_private_chain_len 27
+prev_public_chain_len 26
+curr_private_chain_len 27
+curr_public_chain_len 26
+private chain: [(66, 68)]
+blk not added on highest depth
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 68]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66]
+block 66 already seen
+blk 66 not added
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 68]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66]
+block 67 already seen
+blk 67 not added
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 68]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66]
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 68]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66]
+prev_private_chain_len 27
+prev_public_chain_len 26
+curr_private_chain_len 27
+curr_public_chain_len 26
+private chain: [(66, 68)]
+blk not added on highest depth
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 68]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66]
+block 69 already seen
+blk 69 not added
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 68]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66]
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 68]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66]
+prev_private_chain_len 27
+prev_public_chain_len 26
+curr_private_chain_len 27
+curr_public_chain_len 26
+private chain: [(66, 68)]
+blk not added on highest depth
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 68]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66]
+block 70 already seen
+blk 70 not added
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 68]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66]
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 68]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 71]
+prev_private_chain_len 27
+prev_public_chain_len 26
+curr_private_chain_len 27
+curr_public_chain_len 27
+private chain: [(66, 68)]
+recv a blk 71 and lead is  0
+fork updated to blk id: 68
+sending blk id: 68
+published all blocks in private chain
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 68]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 71]
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 68]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 71]
+prev_private_chain_len 27
+prev_public_chain_len 27
+curr_private_chain_len 27
+curr_public_chain_len 27
+private chain: []
+blk not added on highest depth
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 68]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 71]
+block 72 already seen
+blk 72 not added
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 68]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 71]
+block 71 already seen
+blk 71 not added
+block 68 already seen
+block 68 already seen
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 68]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 71]
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 68]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 71]
+prev_private_chain_len 27
+prev_public_chain_len 27
+curr_private_chain_len 27
+curr_public_chain_len 27
+private chain: []
+blk not added on highest depth
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 68]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 71]
+block 73 already seen
+blk 73 not added
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 68]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 71]
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 68]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 71, 74]
+prev_private_chain_len 27
+prev_public_chain_len 27
+curr_private_chain_len 27
+curr_public_chain_len 28
+private chain: []
+recv a blk 74 and lead is  -1
+update mining point
+fork updated to blk id: 74
+new mine event added due to new longest chain blk id: 74
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 71, 74]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 71, 74]
+block 74 already seen
+blk 74 not added
+block 75 added to private chain
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 71, 74, 75]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 71, 74]
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 71, 74, 75]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 71, 74, 76]
+prev_private_chain_len 29
+prev_public_chain_len 28
+curr_private_chain_len 29
+curr_public_chain_len 29
+private chain: [(74, 75)]
+recv a blk 76 and lead is  0
+fork updated to blk id: 75
+sending blk id: 75
+published all blocks in private chain
+block 75 already seen
+block 75 already seen
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 71, 74, 75]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 71, 74, 76]
+block 76 already seen
+blk 76 not added
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 71, 74, 75]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 71, 74, 76]
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 71, 74, 75]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 71, 74, 76]
+prev_private_chain_len 29
+prev_public_chain_len 29
+curr_private_chain_len 29
+curr_public_chain_len 29
+private chain: []
+blk not added on highest depth
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 71, 74, 75]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 71, 74, 76]
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 71, 74, 75]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 71, 74, 76]
+prev_private_chain_len 29
+prev_public_chain_len 29
+curr_private_chain_len 29
+curr_public_chain_len 29
+private chain: []
+blk not added on highest depth
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 71, 74, 75]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 71, 74, 76]
+block 77 already seen
+blk 77 not added
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 71, 74, 75]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 71, 74, 76]
+block 78 already seen
+blk 78 not added
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 71, 74, 75]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 71, 74, 76]
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 71, 74, 75]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 71, 74, 75, 79]
+prev_private_chain_len 29
+prev_public_chain_len 29
+curr_private_chain_len 29
+curr_public_chain_len 30
+private chain: []
+recv a blk 79 and lead is  -1
+update mining point
+fork updated to blk id: 79
+new mine event added due to new longest chain blk id: 79
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 71, 74, 75, 79]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 71, 74, 75, 79]
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 71, 74, 75, 79]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 71, 74, 75, 79]
+prev_private_chain_len 30
+prev_public_chain_len 30
+curr_private_chain_len 30
+curr_public_chain_len 30
+private chain: []
+blk not added on highest depth
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 71, 74, 75, 79]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 71, 74, 75, 79]
+block 80 already seen
+blk 80 not added
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 71, 74, 75, 79]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 71, 74, 75, 79]
+block 79 already seen
+blk 79 not added
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 71, 74, 75, 79]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 71, 74, 75, 79]
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 71, 74, 75, 79]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 71, 74, 75, 79, 81]
+prev_private_chain_len 30
+prev_public_chain_len 30
+curr_private_chain_len 30
+curr_public_chain_len 31
+private chain: []
+recv a blk 81 and lead is  -1
+update mining point
+fork updated to blk id: 81
+new mine event added due to new longest chain blk id: 81
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 71, 74, 75, 79, 81]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 71, 74, 75, 79, 81]
+block 81 already seen
+blk 81 not added
+block 82 added to private chain
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 71, 74, 75, 79, 81, 82]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 71, 74, 75, 79, 81]
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 71, 74, 75, 79, 81, 82]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 71, 74, 75, 79, 81]
+prev_private_chain_len 32
+prev_public_chain_len 31
+curr_private_chain_len 32
+curr_public_chain_len 31
+private chain: [(81, 82)]
+blk not added on highest depth
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 71, 74, 75, 79, 81, 82]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 71, 74, 75, 79, 81]
+block 83 already seen
+blk 83 not added
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 71, 74, 75, 79, 81, 82]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 71, 74, 75, 79, 81]
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 71, 74, 75, 79, 81, 82]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 71, 74, 75, 79, 81]
+prev_private_chain_len 32
+prev_public_chain_len 31
+curr_private_chain_len 32
+curr_public_chain_len 31
+private chain: [(81, 82)]
+blk not added on highest depth
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 71, 74, 75, 79, 81, 82]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 71, 74, 75, 79, 81]
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 71, 74, 75, 79, 81, 82]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 71, 74, 75, 79, 81]
+prev_private_chain_len 32
+prev_public_chain_len 31
+curr_private_chain_len 32
+curr_public_chain_len 31
+private chain: [(81, 82)]
+blk not added on highest depth
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 71, 74, 75, 79, 81, 82]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 71, 74, 75, 79, 81]
+block 84 already seen
+blk 84 not added
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 71, 74, 75, 79, 81, 82]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 71, 74, 75, 79, 81]
+block 85 already seen
+blk 85 not added
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 71, 74, 75, 79, 81, 82]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 71, 74, 75, 79, 81]
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 71, 74, 75, 79, 81, 82]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 71, 74, 75, 79, 81]
+prev_private_chain_len 32
+prev_public_chain_len 31
+curr_private_chain_len 32
+curr_public_chain_len 31
+private chain: [(81, 82)]
+blk not added on highest depth
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 71, 74, 75, 79, 81, 82]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 71, 74, 75, 79, 81]
+block 86 already seen
+blk 86 not added
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 71, 74, 75, 79, 81, 82]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 71, 74, 75, 79, 81]
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 71, 74, 75, 79, 81, 82]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 71, 74, 75, 79, 81, 87]
+prev_private_chain_len 32
+prev_public_chain_len 31
+curr_private_chain_len 32
+curr_public_chain_len 32
+private chain: [(81, 82)]
+recv a blk 87 and lead is  0
+fork updated to blk id: 82
+sending blk id: 82
+published all blocks in private chain
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 71, 74, 75, 79, 81, 82]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 71, 74, 75, 79, 81, 87]
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 71, 74, 75, 79, 81, 82]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 71, 74, 75, 79, 81, 87]
+prev_private_chain_len 32
+prev_public_chain_len 32
+curr_private_chain_len 32
+curr_public_chain_len 32
+private chain: []
+blk not added on highest depth
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 71, 74, 75, 79, 81, 82]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 71, 74, 75, 79, 81, 87]
+block 87 already seen
+blk 87 not added
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 71, 74, 75, 79, 81, 82]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 71, 74, 75, 79, 81, 87]
+block 88 already seen
+blk 88 not added
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 71, 74, 75, 79, 81, 82]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 71, 74, 75, 79, 81, 87]
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 71, 74, 75, 79, 81, 82]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 71, 74, 75, 79, 81, 87]
+prev_private_chain_len 32
+prev_public_chain_len 32
+curr_private_chain_len 32
+curr_public_chain_len 32
+private chain: []
+blk not added on highest depth
+block 82 already seen
+block 82 already seen
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 71, 74, 75, 79, 81, 82]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 71, 74, 75, 79, 81, 87]
+block 89 already seen
+blk 89 not added
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 71, 74, 75, 79, 81, 82]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 71, 74, 75, 79, 81, 87]
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 71, 74, 75, 79, 81, 82]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 71, 74, 75, 79, 81, 87, 90]
+prev_private_chain_len 32
+prev_public_chain_len 32
+curr_private_chain_len 32
+curr_public_chain_len 33
+private chain: []
+recv a blk 90 and lead is  -1
+update mining point
+fork updated to blk id: 90
+new mine event added due to new longest chain blk id: 90
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 71, 74, 75, 79, 81, 87, 90]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 71, 74, 75, 79, 81, 87, 90]
+block 90 already seen
+blk 90 not added
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 71, 74, 75, 79, 81, 87, 90]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 71, 74, 75, 79, 81, 87, 90]
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 71, 74, 75, 79, 81, 87, 90]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 71, 74, 75, 79, 81, 87, 90, 91]
+prev_private_chain_len 33
+prev_public_chain_len 33
+curr_private_chain_len 33
+curr_public_chain_len 34
+private chain: []
+recv a blk 91 and lead is  -1
+update mining point
+fork updated to blk id: 91
+new mine event added due to new longest chain blk id: 91
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 71, 74, 75, 79, 81, 87, 90, 91]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 71, 74, 75, 79, 81, 87, 90, 91]
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 71, 74, 75, 79, 81, 87, 90, 91]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 71, 74, 75, 79, 81, 87, 90, 91, 92]
+prev_private_chain_len 34
+prev_public_chain_len 34
+curr_private_chain_len 34
+curr_public_chain_len 35
+private chain: []
+recv a blk 92 and lead is  -1
+update mining point
+fork updated to blk id: 92
+new mine event added due to new longest chain blk id: 92
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 71, 74, 75, 79, 81, 87, 90, 91, 92]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 71, 74, 75, 79, 81, 87, 90, 91, 92]
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 71, 74, 75, 79, 81, 87, 90, 91, 92]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 71, 74, 75, 79, 81, 87, 90, 91, 92]
+prev_private_chain_len 35
+prev_public_chain_len 35
+curr_private_chain_len 35
+curr_public_chain_len 35
+private chain: []
+blk not added on highest depth
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 71, 74, 75, 79, 81, 87, 90, 91, 92]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 71, 74, 75, 79, 81, 87, 90, 91, 92]
+block 93 already seen
+blk 93 not added
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 71, 74, 75, 79, 81, 87, 90, 91, 92]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 71, 74, 75, 79, 81, 87, 90, 91, 92]
+block 91 already seen
+blk 91 not added
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 71, 74, 75, 79, 81, 87, 90, 91, 92]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 71, 74, 75, 79, 81, 87, 90, 91, 92]
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 71, 74, 75, 79, 81, 87, 90, 91, 92]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 71, 74, 75, 79, 81, 87, 90, 91, 92]
+prev_private_chain_len 35
+prev_public_chain_len 35
+curr_private_chain_len 35
+curr_public_chain_len 35
+private chain: []
+blk not added on highest depth
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 71, 74, 75, 79, 81, 87, 90, 91, 92]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 71, 74, 75, 79, 81, 87, 90, 91, 92]
+block 92 already seen
+blk 92 not added
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 71, 74, 75, 79, 81, 87, 90, 91, 92]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 71, 74, 75, 79, 81, 87, 90, 91, 92]
+block 94 already seen
+blk 94 not added
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 71, 74, 75, 79, 81, 87, 90, 91, 92]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 71, 74, 75, 79, 81, 87, 90, 91, 92]
+private chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 71, 74, 75, 79, 81, 87, 90, 91, 92]
+public chain:  [0, 3, 4, 9, 11, 15, 18, 19, 20, 22, 24, 25, 27, 29, 34, 39, 40, 42, 44, 45, 52, 53, 57, 58, 60, 64, 66, 71, 74, 75, 79, 81, 87, 90, 91, 92]
+prev_private_chain_len 35
+prev_public_chain_len 35
+curr_private_chain_len 35
+curr_public_chain_len 35
+private chain: []
+blk not added on highest depth
+block 97 added to private chain

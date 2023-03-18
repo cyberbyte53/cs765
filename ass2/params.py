@@ -1,12 +1,13 @@
-n = 5 # number of nodes
-z0 = 0.5 # fraction of slow nodes
+n = 10 # number of nodes
+z0 = 1 # fraction of slow nodes
 z1 = 0.5 # fraction of low cpu nodes
 zeta = 0.5 # fraction of honest nodes connected to the adversary node
-adversary_hashing_power = 0.5 # fraction of hashing power of the adversary node
-ITERATIONS = 1000000 # number of iterations to run the simulation
+adversary_hashing_power = 0.1 # fraction of hashing power of the adversary node
+ITERATIONS = 50000000 # number of iterations to run the simulation
 inter_txn_time = 20 # inter transaction time
 inter_blk_time = 6000 # inter block time
-
+LB_DEG = 4 # lower bound on degree of other nodes
+UB_DEG = 6 # upper bound on degree of other nodes
 # constants for the simulation
 c_slow = 5 # link speed for slow internet (in Kbpms)
 c_fast = 100 # link spped for fast internet (in Kbmps)

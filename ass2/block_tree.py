@@ -54,6 +54,7 @@ class BlockTree:
         """
         # if block already exists in the tree return False, False
         if block in self.seen_blks:
+            print(f"block {block.id} already seen")
             return False,False
         # add the block to the tree
         self.seen_blks.add(block)
