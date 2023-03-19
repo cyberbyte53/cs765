@@ -14,8 +14,9 @@ class AdversaryNode(Node):
     def __init__(self, id: int, slow: bool, low_cpu: bool, peers: list, hashing_power: float) -> None:
         super().__init__(id, slow, low_cpu, peers, hashing_power)
         self.block_tree:AdversaryBlockTree = AdversaryBlockTree() 
+        self.is_zero_ = False
         
-    def generate_blk(self,longest_chain_blk_id:int,trigger_time:float) -> None:
+    def generate_blk(self,longest_chain_blk_id:int,trigger_time:float,transmission_delay:list,internet_speed:list) -> None:
         if longest_chain_blk_id != self.block_tree.longest_chain_node()[0].block.id:
             return
         blk = self.block_tree.gen_blk()
@@ -24,6 +25,11 @@ class AdversaryNode(Node):
         with open(f"./output/node_{self.id}_log.txt","a") as f:
             f.write(f"{trigger_time}: Mined Event == {blk}\n")
         self.block_tree.add_pvt_blk(blk)
+        if self.is_zero_:
+            print("-----------------mai call hua")
+            self.publish_private_chain(trigger_time,transmission_delay,internet_speed)
+            self.is_zero_ = False
+        # check 
         next_blk_gen_time = trigger_time + random.expovariate(self.hashing_power/inter_blk_time)
         event_queue.add_event(Event(next_blk_gen_time,GENERATE_BLK,self.id,blk.id))
     
@@ -75,14 +81,18 @@ class AdversaryNode(Node):
         if sender_id == -1:
             print("whats going on")
         else:
+            print(f"recv a blk {blk.id} and lead is ",lead)
             if prev_lead == lead:
                 print("blk not added on highest depth")
                 return
-            print(f"recv a blk {blk.id} and lead is ",lead)
             if lead < 0:
+                assert len(self.block_tree.private_chain) == 0
                 print("update mining point")
                 self.block_tree.update_head_private_chain(False)
+            
             elif lead == 0:
+                assert len(self.block_tree.private_chain) == 1
+                self.is_zero_ = True
                 self.publish_private_chain(received_time,transmission_delay,internet_speed)
             elif lead == 1:
                 self.publish_private_chain(received_time,transmission_delay,internet_speed)

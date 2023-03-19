@@ -142,6 +142,7 @@ class Network:
         hashing_power = [(1-adversary_hashing_power)*hp/total_hashing_power for hp in hashing_power]
         hashing_power[0] = adversary_hashing_power
         self.nodes.append(AdversaryNode(0,0,0,adj_list[0],hashing_power[0]))
+        # self.nodes.append(Node(0,0,0,adj_list[0],hashing_power[0]))
         for id in range(1,self.n):
             self.nodes.append(Node(id,id in slow_nodes,id in low_cpu_nodes,adj_list[id],hashing_power[id]))
     
@@ -173,7 +174,10 @@ class Network:
         elif event.event_type == RECEIVE_TXN:
             self.nodes[event.node].receive_txn(event.object,event.trigger_time,Network.transmission_delay,Network.internet_speed)
         elif event.event_type == GENERATE_BLK:
-            self.nodes[event.node].generate_blk(event.object,event.trigger_time)
+            if event.node == 0:
+                self.nodes[event.node].generate_blk(event.object,event.trigger_time,Network.transmission_delay,Network.internet_speed)
+            else:
+                self.nodes[event.node].generate_blk(event.object,event.trigger_time)
         elif event.event_type == RECEIVE_BLK:
             self.nodes[event.node].receive_blk(event.object,event.trigger_time,Network.transmission_delay,Network.internet_speed)
     

@@ -42,6 +42,7 @@ class AdversaryBlockTree(BlockTree):
                 print("private chain is empty")
                 return None
             blk = self.private_chain.pop(0)
+            #todo timestamp update
             is_added,is_new_longest = self.add_blk(blk,0)
             if not is_added:
                 print("block not added from private chain to public chain")
