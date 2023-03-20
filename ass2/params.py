@@ -10,7 +10,7 @@ LB_DEG = 3 # lower bound on degree of other nodes
 UB_DEG = 3 # upper bound on degree of other nodes
 SELFISH_MINE_ATTACK = 0
 STUBBORN_MINE_ATTACK = 1
-ATTACT_TYPE = SELFISH_MINE_ATTACK
+ATTACT_TYPE = STUBBORN_MINE_ATTACK
 # constants for the simulation
 c_slow = 5 # link speed for slow internet (in Kbpms)
 c_fast = 100 # link spped for fast internet (in Kbmps)
