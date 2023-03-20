@@ -42,7 +42,7 @@ class BlockTree:
         tree.create_node(self.root.block.id,self.root.block.id)
         for child in self.root.children:
             add_node(child)
-        tree.to_graphviz("temp.dot",node_attr={lambda node: f'color={node.data["color"]}'})
+        tree.to_graphviz("temp.dot")
         subprocess.call(["dot", "-Tpng", "temp.dot", "-o",filename])
         # subprocess.call(["rm","temp.dot"])
     

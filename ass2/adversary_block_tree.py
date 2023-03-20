@@ -13,7 +13,6 @@ class AdversaryBlockTree(BlockTree):
      
     def add_pvt_blk(self,blk:Block):
         self.private_chain.append(blk)
-        print(f"block {blk.id} added to private chain")
         
     def print_chain(node:TreeNode,leaf:TreeNode):
         if leaf is None:
@@ -27,32 +26,26 @@ class AdversaryBlockTree(BlockTree):
     def len_private_chain(self):
         chain = AdversaryBlockTree.print_chain(self.root,self.head_private_chain)
         chain.extend(list(map(lambda x:x.id,self.private_chain)))
-        # print("private chain: ",chain)
         return len(chain) - 1,chain
     
     def len_public_chain(self):
         node,depth = self.longest_chain_node()
-        print("public chain: ",AdversaryBlockTree.print_chain(self.root,node))
         return depth
     
-    def update_head_private_chain(self,add_from_private_chain:bool=True):
+    def update_head_private_chain(self,timestamp:float,add_from_private_chain:bool=True):
         blk = None
         if add_from_private_chain:
             if len(self.private_chain) == 0:
-                print("private chain is empty")
                 return None
             blk = self.private_chain.pop(0)
-            #todo timestamp update
-            is_added,is_new_longest = self.add_blk(blk,0)
+            is_added,is_new_longest = self.add_blk(blk,timestamp)
             if not is_added:
-                print("block not added from private chain to public chain")
                 return None
             treenode = self.find_node(blk.id)
             self.head_private_chain = treenode
         else:
             treenode = self.longest_chain_node()[0]
             self.head_private_chain = treenode
-        print("fork updated to blk id:",treenode.block.id)
         return blk
     
     def gen_blk(self) -> Block:
