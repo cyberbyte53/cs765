@@ -31,16 +31,20 @@ class BlockTree:
             Args:
                 node (TreeNode): node to add
             """
-            tree.create_node(tag=f'{node.block.id} ({node.block.mined_by})',identifier=node.block.id,parent=node.parent.block.id)
+            if node.block.mined_by == 0:
+                tree.create_node(tag=f'{node.block.id} ({node.block.mined_by})',identifier=node.block.id,parent=node.parent.block.id,data={'color':'red'})
+            else:
+                tree.create_node(tag=f'{node.block.id} ({node.block.mined_by})',identifier=node.block.id,parent=node.parent.block.id,data={'color':'blue'})
+            
             for child in node.children:
                 add_node(child)
         tree = treelib.Tree()
         tree.create_node(self.root.block.id,self.root.block.id)
         for child in self.root.children:
             add_node(child)
-        tree.to_graphviz("temp.dot")
+        tree.to_graphviz("temp.dot",node_attr={lambda node: f'color={node.data["color"]}'})
         subprocess.call(["dot", "-Tpng", "temp.dot", "-o",filename])
-        subprocess.call(["rm","temp.dot"])
+        # subprocess.call(["rm","temp.dot"])
     
     def add_blk(self,block:Block,timestamp:float) -> tuple[bool,bool]:
         """checks if the block is valid and adds it to the tree
