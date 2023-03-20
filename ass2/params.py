@@ -1,13 +1,16 @@
-n = 20 # number of nodes
-z0 = 1 # fraction of slow nodes
+n = 10 # number of nodes
+z0 = 0.5 # fraction of slow nodes
 z1 = 1 # fraction of low cpu nodes
 zeta = 0.75 # fraction of honest nodes connected to the adversary node
-adversary_hashing_power = 0.1 # fraction of hashing power of the adversary node
-ITERATIONS = 100000000 # number of iterations to run the simulation
-inter_txn_time = 20 # inter transaction time
-inter_blk_time = 6000 # inter block time
-LB_DEG = 4 # lower bound on degree of other nodes
-UB_DEG = 4 # upper bound on degree of other nodes
+adversary_hashing_power = 0.3 # fraction of hashing power of the adversary node
+ITERATIONS = 100000 # number of iterations to run the simulation
+inter_txn_time = 10*1000 # inter transaction time
+inter_blk_time = 60*1000 # inter block time
+LB_DEG = 3 # lower bound on degree of other nodes
+UB_DEG = 3 # upper bound on degree of other nodes
+SELFISH_MINE_ATTACK = 0
+STUBBORN_MINE_ATTACK = 1
+ATTACT_TYPE = SELFISH_MINE_ATTACK
 # constants for the simulation
 c_slow = 5 # link speed for slow internet (in Kbpms)
 c_fast = 100 # link spped for fast internet (in Kbmps)
@@ -25,3 +28,4 @@ GENERATE_TXN = 0
 RECEIVE_TXN = 1
 GENERATE_BLK = 2
 RECEIVE_BLK = 3
+

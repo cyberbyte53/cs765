@@ -113,6 +113,9 @@ class Node:
             f.write(f"{trigger_time}: Mined Event == {blk}\n")
         event_queue.add_event(Event(trigger_time,RECEIVE_BLK,self.id,Packet(-1,self.id,blk)))
         next_blk_gen_time = trigger_time + random.expovariate(self.hashing_power/inter_blk_time)
+        print("---------------------------")
+        print("next block generation time:",next_blk_gen_time-trigger_time)
+        print("---------------------------")
         event_queue.add_event(Event(next_blk_gen_time,GENERATE_BLK,self.id,blk.id))
         
     def receive_blk(self,packet:Packet,received_time:float,transmission_delay:list,internet_speed:list) -> None:
