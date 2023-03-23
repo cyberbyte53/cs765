@@ -196,10 +196,12 @@ class Network:
                 else:
                     f.write(f'Node {a}: total mined:{freq_blks_all[a]} In main chain:0 Ratio:0\n')
             if 0 not in freq_blks_all:
-                freq_blks_all[0] = 1
+                freq_blks_all[0] = 0
             if 0 not in freq_blks_main:
                 freq_blks_main[0] = 0
-                 
-            f.write(f"MPU Adv: {freq_blks_main[0]/freq_blks_all[0]}\n")
+            if freq_blks_all[0] == 0:
+                f.write(f"MPU Adv: 0\n")
+            else:
+                f.write(f"MPU Adv: {freq_blks_main[0]/freq_blks_all[0]}\n")
             f.write(f"MPU All: {sum(freq_blks_main.values())/sum(freq_blks_all.values())}")
         

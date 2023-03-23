@@ -18,7 +18,9 @@ class Handler:
             if event is None:
                 break
             self.network.process_event(event)
+        i = 0
         while True:
+            i += 1
             event = event_queue.get_next_event()
             if event.event_type == GENERATE_BLK:
                 break
