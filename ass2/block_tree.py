@@ -39,6 +39,8 @@ class BlockTree:
         add_nodes(dot,self.root)
         dot.format = 'png'
         dot.render(filename,view=False)
+        #remove the .dot file
+        subprocess.run(['rm',filename])
     
     def add_blk(self,block:Block,timestamp:float) -> tuple[bool,bool]:
         """checks if the block is valid and adds it to the tree
