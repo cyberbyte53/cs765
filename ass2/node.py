@@ -141,7 +141,7 @@ class Node:
                 event_queue.add_event(Event(received_time+time_to_send,RECEIVE_BLK,peer,Packet(self.id,peer,blk)))
                 
     def analyze(self) -> None:
-        self.block_tree.draw_tree("./output/node_"+str(self.id)+"_tree.png")
+        self.block_tree.draw_tree("./output/node_"+str(self.id)+"_tree")
 
     def get_freq_blks_main(self) -> None:
         return self.block_tree.get_freq_blks_main()

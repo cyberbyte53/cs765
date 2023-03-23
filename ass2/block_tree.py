@@ -5,6 +5,7 @@ from typing import Dict,List
 from params import *
 import treelib
 import subprocess
+from graphviz import Digraph
 
 class BlockTree:
     
@@ -26,25 +27,18 @@ class BlockTree:
     def draw_tree(self,filename:str):
         """draws the block tree
         """
-        def add_node(node:TreeNode):
-            """helper function to add a node to the tree
-            Args:
-                node (TreeNode): node to add
-            """
+        def add_nodes(dot:Digraph,node:TreeNode):
             if node.block.mined_by == 0:
-                tree.create_node(tag=f'{node.block.id} ({node.block.mined_by})',identifier=node.block.id,parent=node.parent.block.id,data={'color':'red'})
+                dot.node(str(node.block.id),f'{node.block.id} ({node.block.mined_by})',style='filled',fillcolor='lightblue')
             else:
-                tree.create_node(tag=f'{node.block.id} ({node.block.mined_by})',identifier=node.block.id,parent=node.parent.block.id,data={'color':'blue'})
-            
+                dot.node(str(node.block.id),f'{node.block.id} ({node.block.mined_by})')
             for child in node.children:
-                add_node(child)
-        tree = treelib.Tree()
-        tree.create_node(self.root.block.id,self.root.block.id)
-        for child in self.root.children:
-            add_node(child)
-        tree.to_graphviz("temp.dot")
-        subprocess.call(["dot", "-Tpng", "temp.dot", "-o",filename])
-        # subprocess.call(["rm","temp.dot"])
+                add_nodes(dot,child)
+                dot.edge(str(node.block.id),str(child.block.id))
+        dot = Digraph(comment='Blockchain')
+        add_nodes(dot,self.root)
+        dot.format = 'png'
+        dot.render(filename,view=False)
     
     def add_blk(self,block:Block,timestamp:float) -> tuple[bool,bool]:
         """checks if the block is valid and adds it to the tree
