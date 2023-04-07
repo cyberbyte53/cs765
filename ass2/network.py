@@ -204,4 +204,11 @@ class Network:
             else:
                 f.write(f"MPU Adv: {freq_blks_main[0]/freq_blks_all[0]}\n")
             f.write(f"MPU All: {sum(freq_blks_main.values())/sum(freq_blks_all.values())}")
+        with open("./graphs/network.txt","a") as f:
+            f.write(f"n: {n} ATTACK_TYPE: {ATTACK_TYPE} ZETA: {zeta} HASHING POWER: {adversary_hashing_power}\n")
+            if freq_blks_all[0] == 0:
+                f.write(f"MPU Adv: 0\n")
+            else:
+                f.write(f"MPU Adv: {freq_blks_main[0]/freq_blks_all[0]}\n")
+            f.write(f"MPU All: {sum(freq_blks_main.values())/sum(freq_blks_all.values())}\n")    
         

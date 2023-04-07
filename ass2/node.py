@@ -142,6 +142,8 @@ class Node:
                 
     def analyze(self) -> None:
         self.block_tree.draw_tree("./output/node_"+str(self.id)+"_tree")
+        if self.id == 0:
+            self.block_tree.draw_tree(f"./graphs/n_{n}_{ATTACK_TYPE}_zeta_{zeta}_hp_{adversary_hashing_power}")
 
     def get_freq_blks_main(self) -> None:
         return self.block_tree.get_freq_blks_main()

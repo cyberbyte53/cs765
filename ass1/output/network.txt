@@ -1,39 +1,239 @@
 Node:0
-Peers:[3, 6, 5, 1, 4, 7, 2]
-Slow:True
+Peers:[14, 15, 2, 49, 30, 23, 27, 40]
+Slow:False
 Low cpu:True
 Node:1
-Peers:[0, 6, 3, 4, 2, 7, 5]
+Peers:[42, 12, 40, 30, 22, 9, 8, 16]
 Slow:False
 Low cpu:False
 Node:2
-Peers:[1, 5, 6, 3, 7, 0, 4]
-Slow:False
-Low cpu:False
-Node:3
-Peers:[0, 1, 2, 7, 5, 4]
+Peers:[0, 7, 32, 3, 16, 15, 13, 27]
 Slow:True
-Low cpu:False
+Low cpu:True
+Node:3
+Peers:[2, 26, 35, 32, 20, 8, 11, 40]
+Slow:False
+Low cpu:True
 Node:4
-Peers:[0, 1, 2, 3, 6, 7, 5]
+Peers:[35, 34, 48, 45, 33, 26, 46, 9]
 Slow:True
 Low cpu:False
 Node:5
-Peers:[0, 1, 2, 3, 4, 6, 7]
+Peers:[43, 39, 8, 48, 23, 24, 12, 25]
 Slow:False
-Low cpu:True
+Low cpu:False
 Node:6
-Peers:[0, 1, 2, 4, 5, 7]
-Slow:False
-Low cpu:True
-Node:7
-Peers:[0, 1, 2, 3, 4, 5, 6]
+Peers:[22, 43, 36, 18, 48, 38, 40, 7]
 Slow:True
 Low cpu:True
-Node 3: total mined:21 In main chain:19 Ratio:0.9047619047619048
-Node 0: total mined:1 In main chain:0 Ratio:0
-Node 1: total mined:15 In main chain:11 Ratio:0.7333333333333333
-Node 4: total mined:18 In main chain:15 Ratio:0.8333333333333334
-Node 2: total mined:9 In main chain:9 Ratio:1.0
-Node 7: total mined:1 In main chain:1 Ratio:1.0
-Node 6: total mined:1 In main chain:0 Ratio:0
+Node:7
+Peers:[2, 6, 36, 12, 9, 16, 29, 15]
+Slow:False
+Low cpu:True
+Node:8
+Peers:[1, 5, 37, 46, 48, 3, 10, 17]
+Slow:False
+Low cpu:False
+Node:9
+Peers:[1, 7, 4, 43, 33, 22, 19]
+Slow:True
+Low cpu:True
+Node:10
+Peers:[43, 46, 12, 16, 8, 32, 17, 15]
+Slow:False
+Low cpu:False
+Node:11
+Peers:[3, 27, 45, 26, 46, 24, 31, 34]
+Slow:False
+Low cpu:True
+Node:12
+Peers:[1, 7, 10, 5, 42, 46, 13, 14]
+Slow:True
+Low cpu:True
+Node:13
+Peers:[2, 12, 47, 41, 14, 25, 30, 35]
+Slow:False
+Low cpu:False
+Node:14
+Peers:[0, 13, 26, 22, 46, 12, 18, 15]
+Slow:False
+Low cpu:False
+Node:15
+Peers:[0, 2, 14, 10, 40, 45, 7, 17]
+Slow:True
+Low cpu:True
+Node:16
+Peers:[2, 7, 10, 17, 1, 27, 20, 18]
+Slow:True
+Low cpu:True
+Node:17
+Peers:[10, 16, 43, 24, 19, 37, 15, 8]
+Slow:True
+Low cpu:False
+Node:18
+Peers:[6, 14, 37, 48, 23, 16, 22]
+Slow:True
+Low cpu:False
+Node:19
+Peers:[17, 36, 29, 40, 31, 9, 34, 44]
+Slow:True
+Low cpu:True
+Node:20
+Peers:[3, 16, 41, 21, 26, 49, 24, 25]
+Slow:False
+Low cpu:True
+Node:21
+Peers:[20, 27, 26, 37, 41, 32, 30, 42]
+Slow:False
+Low cpu:True
+Node:22
+Peers:[1, 6, 9, 14, 18, 41, 36, 24]
+Slow:False
+Low cpu:False
+Node:23
+Peers:[5, 18, 0, 31, 30, 24, 27, 47]
+Slow:True
+Low cpu:True
+Node:24
+Peers:[5, 17, 20, 23, 45, 22, 11]
+Slow:True
+Low cpu:True
+Node:25
+Peers:[46, 37, 13, 5, 20, 28, 35]
+Slow:True
+Low cpu:False
+Node:26
+Peers:[3, 4, 11, 14, 20, 21, 35, 49]
+Slow:True
+Low cpu:True
+Node:27
+Peers:[11, 16, 21, 2, 0, 43, 23, 28]
+Slow:True
+Low cpu:False
+Node:28
+Peers:[27, 49, 25, 30, 38, 35, 37, 47]
+Slow:False
+Low cpu:False
+Node:29
+Peers:[7, 19, 38, 49, 41, 36, 46, 33]
+Slow:False
+Low cpu:True
+Node:30
+Peers:[0, 1, 21, 23, 28, 13, 32, 44]
+Slow:False
+Low cpu:True
+Node:31
+Peers:[19, 23, 39, 33, 32, 11, 35, 42]
+Slow:False
+Low cpu:True
+Node:32
+Peers:[2, 3, 10, 21, 30, 31, 42, 44]
+Slow:False
+Low cpu:False
+Node:33
+Peers:[4, 9, 31, 36, 29, 39]
+Slow:True
+Low cpu:True
+Node:34
+Peers:[4, 19, 39, 43, 41, 11, 37]
+Slow:False
+Low cpu:False
+Node:35
+Peers:[3, 4, 28, 13, 38, 26, 25, 31]
+Slow:True
+Low cpu:False
+Node:36
+Peers:[6, 7, 19, 22, 29, 33, 42, 43]
+Slow:True
+Low cpu:False
+Node:37
+Peers:[8, 17, 18, 21, 25, 28, 45, 34]
+Slow:True
+Low cpu:True
+Node:38
+Peers:[6, 28, 29, 35, 44]
+Slow:True
+Low cpu:False
+Node:39
+Peers:[5, 31, 34, 44, 33]
+Slow:True
+Low cpu:False
+Node:40
+Peers:[1, 6, 15, 19, 44, 3, 0, 47]
+Slow:True
+Low cpu:True
+Node:41
+Peers:[13, 20, 21, 22, 29, 34, 47]
+Slow:True
+Low cpu:False
+Node:42
+Peers:[1, 12, 32, 31, 21, 36, 48, 45]
+Slow:False
+Low cpu:False
+Node:43
+Peers:[5, 6, 9, 10, 17, 27, 34, 36]
+Slow:False
+Low cpu:True
+Node:44
+Peers:[30, 38, 39, 40, 19, 45, 32]
+Slow:False
+Low cpu:False
+Node:45
+Peers:[4, 11, 15, 24, 37, 42, 44]
+Slow:False
+Low cpu:True
+Node:46
+Peers:[4, 8, 10, 11, 12, 14, 25, 29]
+Slow:False
+Low cpu:False
+Node:47
+Peers:[13, 28, 40, 49, 41, 23]
+Slow:True
+Low cpu:False
+Node:48
+Peers:[4, 5, 6, 8, 18, 42]
+Slow:True
+Low cpu:True
+Node:49
+Peers:[0, 20, 28, 29, 47, 26]
+Slow:False
+Low cpu:False
+Node 49: total mined:5 In main chain:5 Ratio:1.0
+Node 8: total mined:8 In main chain:8 Ratio:1.0
+Node 41: total mined:7 In main chain:1 Ratio:0.14285714285714285
+Node 13: total mined:7 In main chain:6 Ratio:0.8571428571428571
+Node 21: total mined:2 In main chain:2 Ratio:1.0
+Node 34: total mined:9 In main chain:8 Ratio:0.8888888888888888
+Node 25: total mined:10 In main chain:10 Ratio:1.0
+Node 19: total mined:3 In main chain:1 Ratio:0.3333333333333333
+Node 35: total mined:8 In main chain:0 Ratio:0
+Node 10: total mined:9 In main chain:9 Ratio:1.0
+Node 5: total mined:8 In main chain:6 Ratio:0.75
+Node 4: total mined:3 In main chain:3 Ratio:1.0
+Node 26: total mined:2 In main chain:2 Ratio:1.0
+Node 42: total mined:12 In main chain:8 Ratio:0.6666666666666666
+Node 28: total mined:7 In main chain:6 Ratio:0.8571428571428571
+Node 46: total mined:12 In main chain:12 Ratio:1.0
+Node 9: total mined:1 In main chain:1 Ratio:1.0
+Node 12: total mined:1 In main chain:1 Ratio:1.0
+Node 1: total mined:5 In main chain:5 Ratio:1.0
+Node 32: total mined:6 In main chain:5 Ratio:0.8333333333333334
+Node 31: total mined:2 In main chain:2 Ratio:1.0
+Node 45: total mined:2 In main chain:2 Ratio:1.0
+Node 17: total mined:8 In main chain:7 Ratio:0.875
+Node 44: total mined:7 In main chain:7 Ratio:1.0
+Node 39: total mined:6 In main chain:4 Ratio:0.6666666666666666
+Node 18: total mined:6 In main chain:4 Ratio:0.6666666666666666
+Node 3: total mined:1 In main chain:1 Ratio:1.0
+Node 38: total mined:8 In main chain:5 Ratio:0.625
+Node 22: total mined:4 In main chain:4 Ratio:1.0
+Node 16: total mined:3 In main chain:3 Ratio:1.0
+Node 14: total mined:9 In main chain:9 Ratio:1.0
+Node 27: total mined:5 In main chain:4 Ratio:0.8
+Node 48: total mined:1 In main chain:1 Ratio:1.0
+Node 36: total mined:2 In main chain:2 Ratio:1.0
+Node 29: total mined:1 In main chain:1 Ratio:1.0
+Node 43: total mined:1 In main chain:1 Ratio:1.0
+Node 11: total mined:1 In main chain:1 Ratio:1.0
+Node 15: total mined:1 In main chain:0 Ratio:0
+Node 47: total mined:9 In main chain:0 Ratio:0

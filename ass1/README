@@ -1,0 +1,10 @@
+params.py contains all the parameters for the simulation.
+The parameters are explained in the comments of the file.
+
+To start the simulation run the command
+    python handler.py
+
+After the simulation is over you can check the output in output folder. It contains files of three types:
+    1. node_*_log.txt: contains information about the node, and the events that happened to it.
+    2. node_*_tree.png: the blockchain at the end of the simulation.
+    3. network.txt: contains information about the network and various ratios associated with the nodes.
