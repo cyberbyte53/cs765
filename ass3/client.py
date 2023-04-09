@@ -3,13 +3,13 @@ from web3 import Web3
 
 
 #connect to the local ethereum blockchain
-provider = Web3.HTTPProvider('http://127.0.0.1:8545')
+provider = Web3.HTTPProvider('http://127.0.0.1:7545')
 w3 = Web3(provider)
 #check if ethereum is connected
 print(w3.is_connected())
 
 #replace the address with your contract address (!very important)
-deployed_contract_address = '0x8F046F919BA03C951C9E6c1A5439f6C62F7341bd'
+deployed_contract_address = '0xa356884a2a6d2C574C4aFa350B44BeEe1157c532'
 
 #path of the contract json file. edit it with your contract json file
 compiled_contract_path ="build/contracts/Payment.json"
