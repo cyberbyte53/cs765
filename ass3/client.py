@@ -16,6 +16,8 @@ class Network:
         self.successful_transactions = 0
         self.failed_transactions = 0
         self.draw_network()
+        self.txn_succ_ratio = []
+        
     
     def create_network(self):
         # register n nodes 
@@ -83,6 +85,7 @@ class Network:
                 fail += 1
             if((i+1)%print_freq==0):
                 # write to file
+                self.txn_succ_ratio.append(succ/(succ+fail))
                 with open("results.txt", "a") as f:
                     f.write(f"{i+1}: success rate: {succ/(succ+fail)}\n")
                 succ = 0
@@ -108,6 +111,14 @@ class Network:
         nx.draw_networkx_edge_labels(G, pos,edge_labels={(u, v): d['weight'] for u, v, d in G.edges(data=True)},font_size=10)
         plt.title(heading)
         plt.savefig(f"./plots/{self.successful_transactions+self.failed_transactions}.png")
+    
+    def draw_succ_ratio(self):
+        if not self.debug:   
+            return
+        plt.clf()   
+        plt.plot(range(len(self.txn_succ_ratio)),self.txn_succ_ratio)
+        plt.title("Transaction Success Ratio")
+        plt.savefig(f"./plots/success_ratio.png")
     
 def empty_dir(directory):
     for filename in os.listdir(directory):
@@ -152,6 +163,7 @@ if __name__ == "__main__":
     
     network = Network(contract,w3,True)
     network.fire_random_transactions(num_transactions)
+    network.draw_succ_ratio()
 
 
 
