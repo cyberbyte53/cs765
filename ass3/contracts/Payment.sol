@@ -19,6 +19,7 @@ contract Payment {
   event AccountCreated(uint id, uint partner_id, uint balance);
   event TransactionStatus(bool success,uint id1, uint id2, uint amount,uint[] path);
   event AccountClosed(uint id1, uint id2);
+  event ShortestPath(uint id1,uint id2,uint[] path);
 
   function doesUserExist(uint _id) public view returns(bool){
     for(uint i = 0; i < user_ids.length; i++){
@@ -46,7 +47,7 @@ contract Payment {
     emit AccountCreated(_id1, _id2, _balance);
   }
 
-  function getShortestPath(uint start,uint end) public view returns(uint[] memory){
+  function getShortestPath(uint start,uint end) public returns(uint[] memory){
     // use bfs to find the shortest path
     bool[] memory visited = new bool[](user_ids.length);
     uint[] memory parent = new uint[](user_ids.length);
@@ -85,11 +86,13 @@ contract Payment {
               curr = parent[curr];
             }
             path[index] = start;
+            emit ShortestPath(start,end,path);
             return path;
           }
         }
       }
     }
+    emit ShortestPath(start,end,new uint[](0));
     return new uint[](0);
   }
 
