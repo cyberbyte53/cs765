@@ -1,11 +1,11 @@
-n=10 m=1 p=0.5 mean_starting_balance=10 num_transactions=10
-1: success rate: 1.0
-2: success rate: 1.0
-3: success rate: 1.0
-4: success rate: 0.0
-5: success rate: 1.0
-6: success rate: 1.0
-7: success rate: 1.0
-8: success rate: 1.0
-9: success rate: 1.0
-10: success rate: 1.0
+n=100 m=1 p=0.5 mean_starting_balance=10 num_transactions=1000
+100: success rate: 0.6
+200: success rate: 0.49
+300: success rate: 0.44
+400: success rate: 0.47
+500: success rate: 0.55
+600: success rate: 0.5
+700: success rate: 0.52
+800: success rate: 0.52
+900: success rate: 0.5
+1000: success rate: 0.51

@@ -47,7 +47,7 @@ contract Payment {
     emit AccountCreated(_id1, _id2, _balance);
   }
 
-  function getShortestPath(uint start,uint end) public returns(uint[] memory){
+  function getShortestPath(uint start,uint end,uint amount) public returns(uint[] memory){
     // use bfs to find the shortest path
     bool[] memory visited = new bool[](user_ids.length);
     uint[] memory parent = new uint[](user_ids.length);
@@ -73,6 +73,9 @@ contract Payment {
       for(uint i = 0; i < accounts[curr].length; i++){
         uint next = accounts[curr][i].partner_id;
         if(!visited[next]){
+          if(accounts[curr][i].balance < amount){
+            continue;
+          }
           visited[next] = true;
           distance[next] = distance[curr] + 1;
           parent[next] = curr;
@@ -139,7 +142,7 @@ contract Payment {
     
     uint index1 = id_index_map[_id1];
     uint index2 = id_index_map[_id2];
-    uint[] memory path = getShortestPath(index1, index2);
+    uint[] memory path = getShortestPath(index1, index2,_amount);
     if(path.length == 0){
       emit TransactionStatus(false,_id1, _id2, _amount, path);
       return;

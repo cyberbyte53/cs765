@@ -113,8 +113,6 @@ class Network:
         plt.savefig(f"./plots/{self.successful_transactions+self.failed_transactions}.png")
     
     def draw_succ_ratio(self):
-        if not self.debug:   
-            return
         plt.clf()   
         plt.plot(range(len(self.txn_succ_ratio)),self.txn_succ_ratio)
         plt.title("Transaction Success Ratio")
@@ -161,9 +159,9 @@ if __name__ == "__main__":
     # empty plots directory
     empty_dir("./plots")
     
-    network = Network(contract,w3,True)
+    network = Network(contract,w3,debug)
     network.fire_random_transactions(num_transactions)
     network.draw_succ_ratio()
-
+    print("overall success rate: ",network.successful_transactions/(network.successful_transactions+network.failed_transactions))
 
 
