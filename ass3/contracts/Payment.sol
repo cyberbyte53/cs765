@@ -17,7 +17,7 @@ contract Payment {
 
   event UserRegistered(uint id, string name);
   event AccountCreated(uint id, uint partner_id, uint balance);
-  event AmountSent(uint id1, uint id2, uint amount);
+  event TransactionStatus(bool success,uint id1, uint id2, uint amount,uint[] path);
   event AccountClosed(uint id1, uint id2);
 
   function doesUserExist(uint _id) public view returns(bool){
@@ -133,16 +133,21 @@ contract Payment {
   function sendAmount(uint _id1, uint _id2, uint _amount) public {
     require(doesUserExist(_id1), "User1 not registered");
     require(doesUserExist(_id2), "User2 not registered");
-    // 1. Find the shortest path between the two users
+    
     uint index1 = id_index_map[_id1];
     uint index2 = id_index_map[_id2];
     uint[] memory path = getShortestPath(index1, index2);
-    require(path.length > 0, "No path found");
-    // 2. Check if the amount can be sent
-    require(canBeSent(path, _amount), "Amount cannot be sent");
-    // 3. Send the amount
-    sendAlongPath(path, _amount);
-    emit AmountSent(_id1, _id2, _amount);
+    if(path.length == 0){
+      emit TransactionStatus(false,_id1, _id2, _amount, path);
+      return;
+    }
+    if(canBeSent(path, _amount)){
+      sendAlongPath(path, _amount);
+      emit TransactionStatus(true,_id1, _id2, _amount, path);
+      return;
+    }
+    emit TransactionStatus(false,_id1, _id2, _amount, path);
+    return;
   }
 
   function closeAccount(uint _id1, uint _id2) public {
